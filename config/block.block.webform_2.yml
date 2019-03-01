@@ -1,4 +1,4 @@
-uuid: 1be10220-eb3c-4d32-b102-ce6c42fdbe6e
+uuid: 6eb161dd-5cba-4f57-bfc7-4b7f02b329ff
 langcode: en
 status: true
 dependencies:
@@ -37,12 +37,3 @@ visibility:
     pages: /contact
     negate: false
     context_mapping: {  }
-  webform:
-    id: webform
-    webforms:
-      contact: contact
-    negate: false
-    context_mapping:
-      webform: '@webform.webform_route_context:webform'
-      webform_submission: '@webform.webform_submission_route_context:webform_submission'
-      node: '@node.node_route_context:node'
