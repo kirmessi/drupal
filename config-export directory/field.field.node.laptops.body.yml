@@ -1,0 +1,22 @@
+uuid: 264dda7e-ef5e-4e60-b811-acc687f23b52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.laptops
+  module:
+    - text
+id: node.laptops.body
+field_name: body
+entity_type: node
+bundle: laptops
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

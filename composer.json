@@ -5,7 +5,13 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "composer/installers": "^1.0.24",
-        "wikimedia/composer-merge-plugin": "^1.4"
+        "wikimedia/composer-merge-plugin": "^1.4",
+        "drupal/devel": "^2.0",
+        "drupal/colorbox": "^1.4",
+        "drupal/views_infinite_scroll": "^1.5",
+        "drupal/image_delta_formatter": "^1.0",
+        "drupal/webform": "^5.1",
+        "drupal/contact_block": "^1.4"
     },
     "replace": {
         "drupal/core": "^8.6"
