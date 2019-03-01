@@ -1,0 +1,23 @@
+uuid: 683dbeaf-fa2c-41b0-a901-19e6543a87b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.phones
+id: node.phones.field_price
+field_name: field_price
+entity_type: node
+bundle: phones
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

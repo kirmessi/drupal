@@ -1,0 +1,80 @@
+uuid: b6f6ef2f-2c67-46cf-ba84-f2893f7e4d12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.phones.body
+    - field.field.node.phones.field_manufacture
+    - field.field.node.phones.field_phone_image
+    - field.field.node.phones.field_price
+    - field.field.node.phones.field_quantity
+    - field.field.node.phones.field_ram_gb
+    - node.type.phones
+  module:
+    - image_delta_formatter
+    - text
+    - user
+id: node.phones.default
+targetEntityType: node
+bundle: phones
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_trimmed
+    weight: 2
+    settings:
+      trim_length: 300
+    third_party_settings: {  }
+    region: content
+  field_manufacture:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_phone_image:
+    weight: 1
+    label: above
+    settings:
+      deltas: '1'
+      image_style: ''
+      image_link: ''
+      deltas_reversed: 0
+    third_party_settings: {  }
+    type: image_delta_formatter
+    region: content
+  field_price:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_quantity:
+    weight: 4
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_ram_gb:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

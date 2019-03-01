@@ -1,0 +1,29 @@
+uuid: 3d629d1b-7aab-4158-90ef-a99b0b374283
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ram_gb
+    - node.type.laptops
+    - taxonomy.vocabulary.specifications
+id: node.laptops.field_ram_gb
+field_name: field_ram_gb
+entity_type: node
+bundle: laptops
+label: 'RAM, GB'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      specifications: specifications
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
