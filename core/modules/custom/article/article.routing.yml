@@ -1,0 +1,7 @@
+article.article_list:
+  path: '/article/module'
+  defaults:
+    _controller: '\Drupal\article\Plugin\Block\ArticleBlock::build'
+    _title: 'Our custom Article list'
+  requirements:
+    _permission: 'access content'

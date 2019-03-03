@@ -1,9 +1,0 @@
-uuid: 325f112f-d552-4654-8cac-562bbad0e9ed
-langcode: en
-status: true
-dependencies: {  }
-name: Manufacture
-vid: ram
-description: 'set manufacture of your device'
-hierarchy: 0
-weight: 0

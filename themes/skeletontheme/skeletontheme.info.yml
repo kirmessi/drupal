@@ -1,0 +1,29 @@
+name: Skeleton Theme
+type: theme
+description: My first theme on Drupal.
+core: 8.x
+screenshot: screenshot.png
+base theme: classy
+
+# Regions
+regions:
+  header_top_left: 'Header top left'
+  header_top_right: 'Header top right'
+  logo: 'Logo'
+  header_right: 'Header Right'
+  header: 'Header'
+  sidebar_first: 'Sidebar First'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_second: 'Sidebar Second'
+  featured_left: 'Featured Left'
+  featured_right: 'Featured Right'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer: 'Footer'
+
+# Libraries
+libraries:
+    - skeletontheme/global-styling
