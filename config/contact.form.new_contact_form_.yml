@@ -1,0 +1,12 @@
+uuid: eaf64042-9d68-4c87-a41c-2174426654d6
+langcode: en
+status: true
+dependencies: {  }
+id: new_contact_form_
+label: 'New Contact form'
+recipients:
+  - kirmessi2394@gmail.com
+reply: ''
+weight: 0
+message: Thanks!
+redirect: /contact/new_contact_form_

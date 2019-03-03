@@ -1,0 +1,9 @@
+uuid: 170be305-1543-4963-ab15-7fbaa00f1d47
+langcode: en
+status: true
+dependencies: {  }
+name: 'RAM, GB'
+vid: specifications
+description: 'set RAM, GB'
+hierarchy: 0
+weight: 0
