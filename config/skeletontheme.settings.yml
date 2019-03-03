@@ -1,0 +1,14 @@
+responsive_menu_state: 1
+responsive_menu_switchwidth: '760'
+responsive_menu_topoptiontext: 'Select a page'
+_core:
+  default_config_hash: ArRTh8LBTlmztleHGiO9cqPj4D1z1jvYqkGCNVMipRI
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1

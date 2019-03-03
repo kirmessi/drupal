@@ -1,4 +1,4 @@
-uuid: 53dd614e-e183-4e34-a231-0dc08086f0cd
+uuid: 777c4f89-ec0e-40af-802b-dfa059ed1e98
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,13 @@ dependencies:
     - webform.webform.contact_us
   module:
     - node
+    - system
     - webform
   theme:
-    - bartik
-id: webform
-theme: bartik
-region: sidebar_first
+    - skeletontheme
+id: skeletontheme_webform_2
+theme: skeletontheme
+region: content
 weight: 0
 provider: null
 plugin: webform_block
@@ -31,3 +32,8 @@ visibility:
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

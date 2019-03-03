@@ -1,0 +1,20 @@
+uuid: 521ee5f6-263e-4672-9938-46e79cc18bae
+langcode: en
+status: true
+dependencies:
+  theme:
+    - skeletontheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: skeletontheme_local_actions
+theme: skeletontheme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

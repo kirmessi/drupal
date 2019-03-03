@@ -1,0 +1,29 @@
+uuid: 4536ca41-cdb2-40e6-8459-5f1e674d4131
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - skeletontheme
+id: skeletontheme_exposedformphonespage_1
+theme: skeletontheme
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_exposed_filter_block:phones-page_1'
+settings:
+  id: 'views_exposed_filter_block:phones-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: Filter
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      laptops: laptops
+      phones: phones
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

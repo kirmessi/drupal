@@ -1,0 +1,20 @@
+uuid: 527c01e8-dde7-4889-8314-f0defd2ca55a
+langcode: en
+status: true
+dependencies:
+  module:
+    - article
+  theme:
+    - skeletontheme
+id: articleblock
+theme: skeletontheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: article_block
+settings:
+  id: article_block
+  label: 'Article block'
+  provider: article
+  label_display: visible
+visibility: {  }

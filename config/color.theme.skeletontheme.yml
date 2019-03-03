@@ -1,0 +1,18 @@
+palette:
+  text: '#161616'
+  link: '#b52c38'
+  linkhover: '#b52c38'
+  headings: '#536682'
+  sitename: '#536682'
+  sitenamehover: '#536682'
+  slogan: '#161616'
+  bodyborder: '#de6846'
+  wrapborder: '#d9964b'
+  footerborder: '#d6d6d6'
+  footerbackground: '#ffffff'
+logo: 'public://color/skeletontheme-7491984d/logo.svg'
+stylesheets:
+  - 'public://color/skeletontheme-7491984d/colors.css'
+files:
+  - 'public://color/skeletontheme-7491984d/logo.svg'
+  - 'public://color/skeletontheme-7491984d/colors.css'
