@@ -1,0 +1,18 @@
+drupalbook.first_page:
+  path: '/first-page'
+  defaults:
+    _controller: '\Drupal\firstmodule\Controller\FirstPageController::content'
+    _title: 'Hello World!'
+  requirements:
+    _permission: 'access content'
+drupalbook.display_node:
+  path: '/display-node/{node}'
+  defaults:
+    _controller: '\Drupal\firstmodule\Controller\DisplayNode::content'
+    _title_callback: '\Drupal\firstmodule\Controller\DisplayNode::getTitle'
+  requirements:
+    _custom_access: '\Drupal\firstmodule\Controller\DisplayNode::access'
+  options:
+    parameters:
+      node:
+        type: entity:node

@@ -27,9 +27,4 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden:
-  field_laptop_image: true
-  field_manufacture: true
-  field_price: true
-  field_quantity: true
-  field_ram_gb: true
+hidden: {  }

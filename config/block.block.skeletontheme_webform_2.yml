@@ -1,11 +1,10 @@
-uuid: 777c4f89-ec0e-40af-802b-dfa059ed1e98
+uuid: 6dd02dad-d120-47bb-922b-5c1162f2e80c
 langcode: en
 status: true
 dependencies:
   config:
     - webform.webform.contact_us
   module:
-    - node
     - system
     - webform
   theme:
@@ -25,13 +24,6 @@ settings:
   default_data: ''
   redirect: false
 visibility:
-  node_type:
-    id: node_type
-    bundles:
-      page: page
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
   request_path:
     id: request_path
     pages: /contact
