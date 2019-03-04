@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - firstmodule
+    - system
+  theme:
+    - bartik
+id: myfirstblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: firstmodule_first_block_block
+settings:
+  id: firstmodule_first_block_block
+  label: 'My first block'
+  provider: firstmodule
+  label_display: visible
+  firstmodule_first_block_settings: Kir
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
