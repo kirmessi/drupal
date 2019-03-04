@@ -1,0 +1,62 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      assets/css/base/elements.css: {}
+    component:
+      assets/css/components/block.css: {}
+      assets/css/components/book.css: {}
+      assets/css/components/breadcrumb.css: {}
+      assets/css/components/captions.css: {}
+      assets/css/components/comments.css: {}
+      assets/css/components/contextual.css: {}
+      assets/css/components/demo-block.css: {}
+      # @see https://www.drupal.org/node/2389735
+      assets/css/components/dropbutton.component.css: {}
+      assets/css/components/featured-top.css: {}
+      assets/css/components/feed-icon.css: {}
+      assets/css/components/field.css: {}
+      assets/css/components/form.css: {}
+      assets/css/components/forum.css: {}
+      assets/css/components/header.css: {}
+      assets/css/components/help.css: {}
+      assets/css/components/highlighted.css: {}
+      assets/css/components/item-list.css: {}
+      assets/css/components/list-group.css: {}
+      assets/css/components/list.css: {}
+      assets/css/components/main-content.css: {}
+      assets/css/components/menu.css: {}
+      assets/css/components/messages.css: {}
+      assets/css/components/node.css: {}
+      assets/css/components/node-preview.css: {}
+      assets/css/components/page-title.css: {}
+      assets/css/components/pager.css: {}
+      assets/css/components/panel.css: {}
+      assets/css/components/primary-menu.css: {}
+      assets/css/components/search-form.css: {}
+      assets/css/components/search-results.css: {}
+      assets/css/components/secondary-menu.css: {}
+      assets/css/components/shortcut.css: {}
+      assets/css/components/skip-link.css: {}
+      assets/css/components/sidebar.css: {}
+      assets/css/components/site-branding.css: {}
+      assets/css/components/site-footer.css: {}
+      assets/css/components/table.css: {}
+      assets/css/components/tablesort-indicator.css: {}
+      assets/css/components/tabs.css: {}
+      assets/css/components/text-formatted.css: {}
+      assets/css/components/toolbar.css: {}
+      assets/css/components/featured-bottom.css: {}
+      assets/css/components/password-suggestions.css: {}
+      assets/css/components/ui.widget.css: {}
+      # @see https://www.drupal.org/node/2389735
+      assets/css/components/vertical-tabs.component.css: {}
+      assets/css/components/views.css: {}
+      assets/css/components/buttons.css: {}
+      assets/css/components/image-button.css: {}
+      assets/css/components/ui-dialog.css: {}
+    layout:
+      assets/css/layout.css: {}
+    theme:
+      assets/css/colors.css: {}
+      assets/css/print.css: { media: print }

@@ -1,0 +1,30 @@
+
+<div class="layout-container">
+
+  <header role="banner">
+    {{ page.header }}
+  </header>
+
+  {{ page.primary_menu }}
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+
+    {% if page.sidebar_first %}
+      <aside class="layout-sidebar-first" role="complementary">
+        {{ page.sidebar_first }}
+      </aside>
+    {% endif %}
+
+    <div class="layout-content">
+      {{ page.content }}
+    </div>
+  </main>
+
+  {% if page.footer %}
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+</div>
