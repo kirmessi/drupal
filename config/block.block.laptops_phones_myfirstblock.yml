@@ -1,4 +1,4 @@
-uuid: f8c8b973-2d58-4bb9-a097-63cf982c84b4
+uuid: ca6c7a62-8b23-4894-97c6-211206bac985
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,9 @@ dependencies:
     - firstmodule
     - system
   theme:
-    - bartik
-id: myfirstblock
-theme: bartik
+    - laptops_phones
+id: laptops_phones_myfirstblock
+theme: laptops_phones
 region: sidebar_first
 weight: 0
 provider: null

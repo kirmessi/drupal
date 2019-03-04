@@ -1,4 +1,4 @@
-uuid: 15670e14-9e55-48e6-b412-5a2d138d1d4f
+uuid: 6c96244d-c1ce-4481-b989-bb92325a8c1a
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - skeletontheme
+    - laptops_phones
 _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
-id: skeletontheme_main_menu
-theme: skeletontheme
-region: header_top_left
+id: laptops_phones_main_menu
+theme: laptops_phones
+region: primary_menu
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'

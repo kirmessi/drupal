@@ -1,16 +1,16 @@
-uuid: 0a907885-7b1c-4dc0-8903-42ad7a5e451e
+uuid: d653cbb3-7aed-406c-ab58-e6d8b27afa37
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
   theme:
-    - skeletontheme
+    - laptops_phones
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: skeletontheme_breadcrumbs
-theme: skeletontheme
-region: header_top_left
+id: laptops_phones_breadcrumbs
+theme: laptops_phones
+region: header
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

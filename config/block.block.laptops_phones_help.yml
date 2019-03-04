@@ -1,15 +1,15 @@
-uuid: 65730901-ef6a-4ac1-9b0d-8723e8a2e93d
+uuid: fe6470f0-d2b6-4bf8-9bab-20762463c6f1
 langcode: en
 status: true
 dependencies:
   module:
     - help
   theme:
-    - skeletontheme
+    - laptops_phones
 _core:
   default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
-id: skeletontheme_help
-theme: skeletontheme
+id: laptops_phones_help
+theme: laptops_phones
 region: content
 weight: -30
 provider: null

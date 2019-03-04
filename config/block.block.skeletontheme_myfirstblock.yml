@@ -1,4 +1,4 @@
-uuid: f8c8b973-2d58-4bb9-a097-63cf982c84b4
+uuid: ae7d5939-c11d-4d2a-a993-aab5e57bc501
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,9 @@ dependencies:
     - firstmodule
     - system
   theme:
-    - bartik
-id: myfirstblock
-theme: bartik
+    - skeletontheme
+id: skeletontheme_myfirstblock
+theme: skeletontheme
 region: sidebar_first
 weight: 0
 provider: null

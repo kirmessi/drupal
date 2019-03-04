@@ -1,4 +1,4 @@
-uuid: 0e53a0bc-14e3-4857-b4da-71ab6273022b
+uuid: 57e01905-403d-464e-aee9-465586b5bc4b
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ dependencies:
     - system
     - webform
   theme:
-    - skeletontheme
-id: skeletontheme_webform_2
-theme: skeletontheme
+    - laptops_phones
+id: laptops_phones_webform_2
+theme: laptops_phones
 region: content
 weight: 0
 provider: null
@@ -37,12 +37,3 @@ visibility:
     pages: /contact
     negate: false
     context_mapping: {  }
-  webform:
-    id: webform
-    webforms:
-      contact: contact
-    negate: false
-    context_mapping:
-      webform: '@webform.webform_route_context:webform'
-      webform_submission: '@webform.webform_submission_route_context:webform_submission'
-      node: '@node.node_route_context:node'

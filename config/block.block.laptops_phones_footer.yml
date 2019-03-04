@@ -1,18 +1,18 @@
-uuid: 1ca78d6c-7ae3-4947-a942-aa597e9a2694
+uuid: 231b0d2e-6d67-4fc9-b61d-7503721f0cfc
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
   module:
     - system
   theme:
-    - skeletontheme
+    - laptops_phones
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: skeletontheme_footer
-theme: skeletontheme
-region: header_top_left
+id: laptops_phones_footer
+theme: laptops_phones
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

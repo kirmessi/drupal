@@ -1,18 +1,18 @@
-uuid: f005ea71-270d-45fd-ac94-22ade759056c
+uuid: 35b8bcae-ac00-4796-b1e7-8a7e4722af5e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
   module:
     - system
   theme:
-    - skeletontheme
+    - laptops_phones
 _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: skeletontheme_account_menu
-theme: skeletontheme
-region: header_top_left
+id: laptops_phones_account_menu
+theme: laptops_phones
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:account'

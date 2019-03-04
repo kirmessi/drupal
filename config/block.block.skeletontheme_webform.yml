@@ -1,4 +1,4 @@
-uuid: 0e53a0bc-14e3-4857-b4da-71ab6273022b
+uuid: 5f5a080a-b4d1-4483-9070-958e75fc066b
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,12 @@ dependencies:
     - webform.webform.contact_us
   module:
     - node
-    - system
     - webform
   theme:
     - skeletontheme
-id: skeletontheme_webform_2
+id: skeletontheme_webform
 theme: skeletontheme
-region: content
+region: sidebar_first
 weight: 0
 provider: null
 plugin: webform_block
@@ -31,18 +30,4 @@ visibility:
       page: page
     negate: false
     context_mapping:
-      node: '@node.node_route_context:node'
-  request_path:
-    id: request_path
-    pages: /contact
-    negate: false
-    context_mapping: {  }
-  webform:
-    id: webform
-    webforms:
-      contact: contact
-    negate: false
-    context_mapping:
-      webform: '@webform.webform_route_context:webform'
-      webform_submission: '@webform.webform_submission_route_context:webform_submission'
       node: '@node.node_route_context:node'

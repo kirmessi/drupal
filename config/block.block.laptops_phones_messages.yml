@@ -1,16 +1,16 @@
-uuid: d5ac0de1-bc84-4d49-a4e0-0fb3e6a1dd89
+uuid: 79fa45d7-719d-44bd-9128-6e07cac718de
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
   theme:
-    - skeletontheme
+    - laptops_phones
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: skeletontheme_messages
-theme: skeletontheme
-region: highlighted
+id: laptops_phones_messages
+theme: laptops_phones
+region: header
 weight: 0
 provider: null
 plugin: system_messages_block
