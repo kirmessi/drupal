@@ -4,18 +4,13 @@
  *
  * Place your custom PHP code in this file.
  */
-use Drupal\Core\Url;
-use Drupal\Core\Link;
-use Drupal\taxonomy\Entity\Term;
-use Drupal\file\Entity\File;
-use Drupal\image\Entity\ImageStyle;
 
 /**
  * Implements hook_theme_suggestions_HOOK_alter().
  */
 function laptops_phones_theme_suggestions_region_alter(&$suggestions, $vars, $hook) {
-//Highlighting regions on the page
-  	foreach ($suggestions as $suggestion){
-  		echo '<h2 style="font-weight:700">** '.$suggestion.' **</h2>';
-  	}
+  //Highlighting regions on the page
+  foreach ($suggestions as $suggestion) {
+    echo '<h2 style="font-weight:700">** ' . $suggestion . ' **</h2>';
+  }
 }
