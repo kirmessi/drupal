@@ -1,0 +1,1291 @@
+sudo apt update 
+sudo apt-get update
+sudo-get install apache2
+sudo apt-get install apache2
+sudo ufw app list
+sudo ufw allow 'Apache Full'
+sudo urf status
+sudo ufw status
+sudo sy6stemctl status apache2
+sudo-get update
+sudo apt-get update
+sudo apt-get install mysql-server
+mysql_secure_installtion
+mysql_secure_installation
+systemctl status mysql.service
+mysqladmin -p -u root version
+sudo mysql
+mysqladmin -p -u root version
+cmsstudent
+sudo apt-get update
+sudo apt-get install mysql-server
+mysql_secure_installation
+sudo apt-get remove mysql-server
+sudo apt-get update
+sudo apt-get install mysql-server
+mysql_secure_installation
+systemctl status mysql.service
+apt-get install phpmyadmin
+ssh root@1.1.1.1 -p2222
+ssh root@IP_address
+ssh root@127.0.0.1
+apt-get update && apt-get upgrade
+apt-get install phpmyadmin
+sudo -i
+sudo apt-get purge php.*
+sudo /etc/init.d/apache2 start
+sudo apt-get --purge remove mysql-server
+sudo apt-get --purge remove phpmyadmin
+sudo apt autoremove phpmyadmin
+sudo apt autoremove php*
+sudo nano /etc/apache2/apache2.conf
+sudo systemctl restart apache2
+sudo ufw app list
+udo ufw app info "Apache Full"
+sudo ufw app info "Apache Full"
+sudo ufw allow in "Apache Full"
+sudo apt-get install mysql-server
+sudo mysql_secure_installation
+sudo mysql
+sudo apt-get install libapache2-mod-php
+sudo service apache2 reload
+sudo nano /etc/apache2/mods-enabled/dir.conf
+sudo systemctl restart apache2
+sudo nano /var/www/html/info.php
+sudo apt-get update
+sudo apt-get install phpmyadmin php-mbstring php-gettext
+sudo /etc/init.d/mysql stop
+
+sudo mysqld_safe --skip-grant-tables &
+mysql -uroot
+sudo /etc/init.d/mysql start
+sudo apt-get install phpmyadmin php-mbstring php-gettext
+mysql -u root -p
+sudo mysql -u root -p
+sudo apt --purge mysql-server
+sudo apt purge mysql-server
+sudo apt-get install mysql-server
+sudo mysql_secure_installation
+sudo mysql
+sudo apt-get update
+sudo apt-get install phpmyadmin php-mbstring php-gettext
+sudo phpenmod mbstring
+sudo systemctl restart apache2
+sudo service mysql stop
+sudo mkdir -p /var/run/mysqld
+sudo chown mysql:mysql /var/run/mysqld
+sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &
+mysql -u root
+sudo pkill mysqld
+sudo service mysql start
+mysql -u root --password=123
+sudo mkdir -p /var/www/example.com/public_html
+sudo mkdir -p /var/www/test.com/public_html
+sudo chown -R $USER:$USER /var/www/example.com/public_html
+sudo chown -R $USER:$USER /var/www/test.com/public_html
+sudo chmod -R 755 /var/www
+nano /var/www/example.com/public_html/index.html
+cp /var/www/example.com/public_html/index.html /var/www/test.com/public_html/index.html
+ano /var/www/test.com/public_html/index.html
+nano /var/www/test.com/public_html/index.html
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf
+sudo nano /etc/apache2/sites-available/example.com.conf
+sudo cp /etc/apache2/sites-available/example.com.conf /etc/apache2/sites-available/test.com.conf
+sudo nano /etc/apache2/sites-available/test.com.conf
+sudo a2ensite example.com.conf
+sudo a2ensite test.com.conf
+sudo service apache2 restart
+sudo nano /etc/hosts
+sudo nano '/etc/php/7.2/apache2/php.ini' 
+sudo service apache2 restart
+sudo a2enmod rewrite
+sudo service apache2 restart
+sudo nano /etc/apache2/sites-available/000-default.conf
+sudo nano /etc/apache2/sites-available/example.com.conf
+sudo nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart
+sudo a2enmod rewrite
+sudo nano /etc/apache2/sites-available/000-default.conf
+sudo gedit /etc/apache2/apache2.conf
+sudo systemctl restart apache 
+sudo systemctl restart apache2
+sudo gedit /etc/apache2/apache2.conf
+sudo systemctl restart apache2
+sudo gedit /etc/apache2/apache2.conf
+sudo nano /etc/apache2/apache2.conf
+mysql -u root -p
+sudo apt-get update
+sudo apt-get install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+cd /tmp
+curl -O https://wordpress.org/latest.tar.gz
+tar xzvf latest.tar.gz
+cd
+cd var/www/test.com/public_html
+cd var/www/test.com/public_html/
+curl -O https://wordpress.org/latest.tar.gz
+tar xzvf latest.tar.gz
+ln
+pwd
+cd var/www/test.com/public_html/
+cd /var/www/test.com/public_html/
+curl -O https://wordpress.org/latest.tar.gz
+tar xzvf latest.tar.gz
+rm latest.tar.gz
+mv /var/www/test.com/public_html/wordpress/* /var/www/test.com/public_html/
+rm wordpress
+rmdir wordpress
+touch /var/www/test.com/public_html/.htaccess
+chmod 660 /var/www/test.com/public_html/.htaccess
+touch /var/www/test.com/public_html/.htaccess
+touch .htaccess
+touch empty_file
+rm empty_file
+touch .htaccess
+touch htaccess
+rm htaccess
+chmod 660 /.htaccess
+chmod 660 .htaccess
+cp /tmp/wordpress/wp-config-sample.php /var/www/test.com/public_html/wp-config.php
+mkdir /var/www/test.com/public_html/wp-content/upgrade
+sudo chown -R sammy:www-data /var/www/test.com/public_html
+sudo chown -R sammy:cmsstudent/var/www/html
+sudo chown -R sammy:cmsstudent /var/www/test.com/public_html
+sudo find /var/www/test.com/public_html -type d -exec chmod g+s {} \;
+sudo chmod g+w /var/www/test.com/public_html/wp-content
+sudo chmod -R g+w /var/www/test.com/public_html/wp-content/themes
+curl -s https://api.wordpress.org/secret-key/1.1/salt/
+sudo systemctl restart apache2
+sudo chmod -R 755 /var/www/test.com/public_html
+cd /var/www/example.com/
+mkdir application
+sudo mkdir application
+sudo mkdir application/controllers
+sudo mkdir application/core
+sudo mkdir application/models
+sudo mkdir application/views
+sudo mkf application/bootstrap.php
+sudo touch application/bootstrap.php
+touch application/core/model.php
+sudo touch application/core/model.php
+sudo touch application/core/view.php
+sudo touch application/core/controller.php
+sudo touch application/core/route.php
+sudo touch application/views/template_view.php
+sudo touch application/views/main_view.php
+sudo touch application/controllers/controller_main.php
+sudo touch application/models/model_portfolio.php
+sudo touch application/controllers/class Controller_Portfolio extends Controller
+{ function __construct() { ew Model_Portfolio();
+$this->view = new View();
+}
+function action_index() { erate('portfolio_view.php', 'template_view.php', $data);
+}
+sudo touch application/controllers/controller_portfolio.php
+sudo touch application/views/<h1>Портфолио</h1>
+<p>
+<table>
+Все проекты в следующей таблице являются вымышленными, поэтому даже не пытайтесь перейти по приведенным ссылкам.
+<tr><td>Год</td><td>Проект</td><td>Описание</td></tr>
+<?php
+foreach($data as $row)
+{ '].'</td></tr>';
+}
+?>
+</table>
+sudo touch application/controllers/portfolio_view.php
+mv /var/www/example.com/application/controllers/portfolio_view.php /var/www/example.com/application/views/
+sudo mv /var/www/example.com/application/controllers/portfolio_view.php /var/www/example.com/application/views/
+sudo rm /var/www/exampl.com/application/controllers/class
+sudo rm '/var/www/example.com/application/controllers/class' 
+sudo rm '/var/www/example.com/Controller'
+sudo rm '/var/www/example.com/Controller_Portfolio'
+sudo rm '/var/www/example.com/extends' 
+sudo rmdir /var/www/example.com/
+sudo rm -f /var/www/example.com
+sudo rm -rf /var/www/example.com
+sudo cp -R  /toshiba/последнее/example.com  /var/www/
+sudo cp -R  '/media/cmsstudent/TOSHIBA/последнее/example.com' /var/www/
+sudo cp -R  '/media/cmsstudent/TOSHIBA/последнее/example.sql'  /var/www/
+sudo service apache2 strat
+sudo service apache2 start
+sudo service apache2 restart
+sudo chown -R $USER:$USER /var/www/example.com/
+sudo chown -R $USER:$USER /var/www/example.com/application/
+sudo chown -R $USER:$USER /var/www/example.com/public_html/
+sudo service apache2 start
+sudo service apache2 restart
+sudo apt-get update
+sudo apt-get upgrate
+$sudo chown nobody /var/www/example.com/public_html/tmp/
+sudo -i
+sudo service apache2 restart
+chmod a+rwxt /var/www/example.com/public_html/tmp /va/www/example.com/public_html/materials/
+sudo chmod a+rwxt /var/www/example.com/public_html/tmp /va/www/example.com/public_html/materials/
+sudo chmod a+rwxt /var/www/example.com/public_html/tmp /var/www/example.com/public_html/materials/
+sudo service apache2 restart
+sudo chown nobody /var/www/example.com/public_html/tmp/
+sudo chown nobody /var/www/example.com/public_html/materials/
+sudo chmod -R 0755 /var/www/example.com/public_html/tmp/
+sudo chmod -R 0755 /var/www/example.com/public_html/materials/
+sudo service apache2 restart
+sudo chmod a+rwxt /var/www/example.com/public_html/tmp/ /var/www/example.com/public_html/materials/
+sudo service apache2 restart
+sudo apt-get update
+sudo apt-get install git
+git config --global user.name "kirmessi"
+git config --global user.email "khitsenko@bk.ru"
+git config --list
+git init
+git commit -m "first commit"
+cd /var/www/example.com/
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/kirmessi/phpblog.git
+git push -u origin master
+git add .
+git status
+git push -u origin master
+git commit -m "first commit"
+git push -u origin master
+git status
+git commit -m "second commit"
+git branch dev
+git status
+git branch --list
+git brach dev
+git branch dev
+git checkout dev
+git branch --list
+git status
+git add .
+git commit -m "output date in index"
+git push -u dev
+git push -u origin dev
+git status
+git add .
+git commit -m "database whith date"
+git push -u origin dev
+sudo service apache2 start
+cd var/www/example.com/
+cd /var/www/example.com
+gi init
+git init
+git remote -v
+git fetch
+git status
+git pull origin dev
+rm -f public_html/materials/0.jpg
+sudo rm -f public_html/materials/0.jpg
+git pull origin dev
+git branch
+git commit -m "at work"
+git pull
+git status
+git add
+git add.
+git add .
+git status
+git add .
+git status
+git commit -m "update postedit"
+git push
+git push origin dev
+mkdir twig
+cd twig
+curl -s http://getcomposer.org/installer | php
+nano composer.json
+php composer.phar install
+cd ~
+cd var/www/example.com/
+cd var/www/example.com
+cd /var/www/example.com
+git status
+git add .
+git commit -m "twig strat"
+git commit -m "twig start"
+git push origin dev
+sudo service apache2 start
+sudo apt update
+sudo apt install curl php-cli php-mbstring git unzip
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+composer
+cd var/www/example.com
+cd /var/www/example.com/
+composer require twig:1.*
+composer require twig/twig:1.*
+git init
+git status
+git pull
+git pull origin dev
+git branch
+git fetch
+git pull origin dev
+git status
+git add .
+git status
+git pull origin dev
+git commit -m "work merge with home"
+git pull origin dev
+git status
+git add .
+git pull origin dev
+git commit -m "work merge with home"
+git pull origin dev
+git status
+git add .
+git commit -m "work merge with home"
+composer udpate
+composer update
+vendor/bin/doctrine orm:schema-tool:create
+vendor/bin/doctrine-module orm:schema-tool:create --dump-sq
+vendor/bin/doctrine orm:schema-tool:create
+cd application
+../vendor/bin/doctrine orm:schema-tool:create
+../vendor/bin/doctrine orm:schema-tool:create
+../vendor/bin/doctrine orm:schema-tool:create
+vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
+..vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
+../vendor/bin/doctrine orm:schema-tool:create
+../vendor/bin/doctrine orm:schema-tool:upadte --force --dump-sql
+../vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
+cd /var/www/example.com/
+/vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
+vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
+cd apllication
+cd application/
+../vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
+../vendor/bin/doctrine orm:schema-tool:create --force --dump-sql
+../vendor/bin/doctrine orm:schema-tool:create
+cd /var/www/example.com/
+vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
+vendor/bin/doctrine orm:schema-tool:create --force --dump-sql
+vendor/bin/doctrine orm:schema-tool:create --dump-sql
+vendor/bin/doctrine orm:schema-tool:create
+vendor/bin/doctrine orm:schema-tool:update -f
+vendor/bin/doctrine orm:schema-tool:create
+vendor/bin/doctrine orm:schema-tool:update -f
+git init
+git status
+git add .
+git commit -m "added ORM Doctrine for testing"
+git push origin dev
+git status
+git add .
+git push origin dev
+git status
+git commit -m "delete pagination"
+git push origin dev
+sudo service apache2 start
+cd /var/www/example.com/public_html
+git init
+git pull origin dev
+git status
+git branch
+
+cd /var/www/example.com
+git init
+git pull origin dev
+cd /var/www/test.com/public_html/
+git init
+git remote add origin https://github.com/kirmessi/wp-custom-plugins.git
+git status
+git checkout dev
+git pull origin dev
+git fetch
+git pull origin dev
+git add .
+cd /var/www/example.com
+git status
+git add .
+git commit -m "login"
+git push origin dev
+sudo service apache2 start
+cd /var/www/example.com/
+git init
+git status
+git pull origin dev
+sudo service apache2 start
+sudo chmod -R 755 /var/www/
+sudo chmod -R 755 /var/www/exapmple.com/tmp/
+sudo chmod -R 755 /var/www/exapmple.com/tmp
+sudo chmod -R 755 /var/www/exapmple.com/public_html/tmp
+sudo chmod -R 755 /var/www/example.com/public_html/tmp
+sudo chmod -R 755 /var/www/example.com/public_html/materials
+sudo chmod -R 755 /var/www
+sudo service apache2 restart
+cd /var/www/example.com/
+git init
+git status
+git add .
+git status
+git commit -m "remake user_id"
+git push origin dev
+sudo service apache2 start
+cd /var/www/example.com
+git init
+git pull origin dev
+sudo chmod -R 755 '/var/www/example.com/public_html/tmp' 
+sudo chmod -R 755 '/var/www/example.com/public_html/materials' 
+sudo chown nobody /var/www/example.com/public_html/tmp/
+sudo chown nobody /var/www/example.com/public_html/materials/
+sudo chmod -R 0755 /var/www/example.com/public_html/tmp/
+sudo chmod -R 0755 /var/www/example.com/public_html/materials/
+sudo chmod a+rwxt /var/www/example.com/public_html/materials/
+sudo chmod a+rwxt /var/www/example.com/public_html/tmp/
+sudo service apache2 restart
+ls -l
+cd public_html
+ls -l
+sudo chown cmsstudent /var/www/example.com/public_html/materials/
+sudo chown cmsstudent /var/www/example.com/public_html/tmp/
+ls -l
+id -Gn cmsstudent
+groups
+id
+ps aux | grep httpd
+sudo chown nobody /var/www/example.com/public_html/tmp/
+sudo chown nobody /var/www/example.com/public_html/materials/
+sudo chmod -R 0755 /var/www/example.com/public_html/tmp/
+sudo chmod -R 0755 /var/www/example.com/public_html/materials/
+ls -l
+sudo chown cmsstudent /var/www/example.com/public_html/materials/
+sudo chown cmsstudent /var/www/example.com/public_html/tmp/
+ls -l
+id
+sudo chown -R root:cmsstudent /var/www/example.com/public_html/tmp/
+sudo chown -R root:cmsstudent /var/www/example.com/public_html/tmp
+sudo chown -R root:cmsstudent /var/www/example.com/public_html/materials/
+sudo chown -R root:cmsstudent /var/www/example.com/public_html/materials
+ls -l
+sudo chown -R root:cmsstudent /var/www/example.com/public_html/materials
+sudo chown -R root:cmsstudent /var/www/example.com/public_html/tmp
+ls -l
+chmod -R 0755 /var/www/example.com/public_html/tmp
+sudo chmod -R 0755 /var/www/example.com/public_html/tmp
+sudo chmod -R 0755 /var/www/example.com/public_html/materials
+sudo chown nobody /var/www/example.com/public_html/materials/
+sudo chown nobody /var/www/example.com/public_html/tmp/
+sudo chmod -R 0755 /var/www/example.com/public_html/tmp/
+sudo chmod -R 0755 /var/www/example.com/public_html/materials/
+sudo chown -R user:cmsstudent '/var/www/example.com/public_html/materials' 
+sudo chown -R cmsstudent '/var/www/example.com/public_html/materials' 
+sudo chown -R cmsstudent '/var/www/example.com/public_html/tmp' 
+ls -l
+sudo adduser cmstudent img
+sudo adduser cmsstudent img
+sudo chown -R $USER:$USER /var/www/example.com/public_html
+sudo chmod -R 755 /var/www
+sudo groupadd managers
+sudo adduser cmsstudent  managers
+cmstudent:managers -R www
+user:managers -R www
+chown user /var/www/example.com/public_html/temp
+chown cmsstudent /var/www/example.com/public_html/temp
+chown cmsstudent /var/www/example.com/public_html/tmp/
+chown cmsstudent /var/www/example.com/public_html/materials/
+ls -l
+sudo chown -R $USER:$USER /var/www/example.com/public_html
+ls -l
+sudo -i
+sudo chmod -R 755 /var/www/exapmple.com/tmp
+sudo chmod -R 755 /var/www/exapmple.com/public_html/tmp
+sudo chmod -R 755 /var/www/example.com/public_html/tmp
+sudo chmod -R 755 /var/www/example.com/public_html/materials
+sudo chown nobody /var/www/example.com/public_html/tmp/
+sudo chown nobody /var/www/example.com/public_html/materials/
+sudo chmod -R 755 /var/www/example.com/public_html/tmp/
+sudo chmod -R 755 /var/www/example.com/public_html/materials/
+sudo chmod a+rwxt /var/www/example.com/public_html/tmp/
+sudo chmod a+rwxt /var/www/example.com/public_html/materials/
+sudo chown -R $USER:$USER /var/www/example.com/public_html/tmp/
+sudo chown -R $USER:$USER /var/www/example.com/public_html/materials/
+ls -l
+cd /var/www/example.com/public_html/
+ls -l
+cd `
+cd ~
+cd /var/www/example.com/
+git init
+git pull origin dev
+git init
+git status
+git add .
+git commit -m "rewrite sql query"
+git push origin dev
+cd /var/www/example.com
+git init
+git pull origin dev
+sudo service apche2 start
+sudo service apache2 start
+cd public_html
+sudo chmod -R 777 /var/www/example.com/public_html/tmp
+cd ~
+sudo chmod -R 777 /var/www/example.com/public_html/tmp
+sudo chmod -R 777 /var/www/example.com/public_html/materials
+sudo chmod -R 777 /var/www/example.com/public_html/tmp
+sudo chmod -R 777 /var/www/html/
+cd /var/www/html/
+composer global require "laravel/lumen-installer"
+sudo composer global require "laravel/lumen-installer"
+lumen new blog
+composer
+composer create-project --prefer-dist laravel/lumen blog
+php -S localhost:8000 -t public
+php -S localhost:8000 -t /public
+php -S localhost:8000 -t public
+php -S localhost -t public
+php -S localhost:8000 -t public
+ls
+cd var/www/
+cd var/www
+cd /var/www
+composer create-project --prefer-dist laravel/lumen blognew
+sudo composer create-project --prefer-dist laravel/lumen blognew
+cd blognew
+ls
+cd ~
+cd /var/www/htm/
+cd /var/www/html/
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/kirmessi/lumen-test.git
+git push -u origin master
+git push
+git push --set-upstream origin master
+git push -u origin master
+git status
+git add .
+git status
+git commit -m "lumenrun"
+git push origin master
+git add .
+git push origin master
+git status
+git add .
+git push origin master
+cd /var/www/html/
+php artisan make:migration create_users_table --create=users
+php artisan migrate
+php artisan env
+php -S localhost:8000 -t public
+sudo nano 
+git status
+git checkout master
+git branch master
+git clone https://github.com/subwayaddicted/git_practice
+cd ~
+git clone https://github.com/subwayaddicted/git_practice
+ls
+git status
+git pull
+git pull origin master
+git checkout -b "feature/kirill"
+mkdir git
+sudo mkdir git
+sudo service start
+sudo service apache2 start
+cd /var/www/example.com
+git init
+git status
+git pull origin dev
+git clone https://github.com/subwayaddicted/git_practice
+git checkout -b feature/kirdev
+git branch master
+git checkout
+git branch
+git status
+git checkout master
+git clone https://github.com/subwayaddicted/git_practice/projects
+git clone https://github.com/subwayaddicted/git_practice
+git status
+git checkout master
+git clone https://github.com/subwayaddicted/git_practice
+git status
+git checkout -b feature/header
+git status
+ls -l
+cd git_practice/
+git status
+git pull origin master
+git checkout -b feateru/header
+git pull origin master
+git status
+git pull origin master
+git checkout master
+git pull origin master
+git checkout feature/header
+git branch
+git pull origin master
+git checkout -b feature/header
+git pull
+git pull origin master
+git brach
+git branch
+git pull origin master
+git branch -a
+git pull origin master
+git checkout master
+git branch
+git pull origin master
+it branch
+git branch
+git checkout feature/header
+git pull origin master
+git checkout master
+git pull origin master
+git checkout feature/header
+git add .
+git status
+git commit -m "feature/header # create header and img "
+git push origin feature/header
+git checkout master
+git pull origin master
+git branch
+git pull origin master
+git checkout feature/header
+git merge origin master
+git checkout master
+git checkout feature/header
+git status
+git pull origin master
+git checkout master
+git pull origin master
+git checkout feature/header
+git merge origin master
+sudo mkdir test
+git init
+sudo git init
+git  clone https://github.com/subwayaddicted/laravel_blog_group_practice.git
+sudo git  clone https://github.com/subwayaddicted/laravel_blog_group_practice.git
+git status
+composer update
+sudo composer update
+sudo mkdir -p /var/www/blog.com/
+sudo chown -R $USER:$USER /var/www/blog.com/
+sudo chmod -R 755 /var/www
+nano /var/www/blog.com/index.html
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/blog.com.conf
+sudo nano /etc/apache2/sites-available/blog.com.conf
+sudo a2ensite blog.com.conf
+sudo a2dissite 000-default.conf
+sudo systemctl restart apache2
+sudo nano /etc/hosts
+sudo service apache2 start
+sudo a2ensite blog.com.conf
+sudo service apache2 start
+composer global require laravel/installer
+cd /var/www/blog.com
+laravel new blog
+sudo chown -R qwe:qwe /home/qwe/.composer
+sudo chown -R cmsstudent:cmsstudent /home/qwe/.composer
+cd ~
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=compose
+drwxr-xr-x    3 root        staff      102 Oct  1 10:50 .composer
+sudo chown -R $USER $HOME/.composer
+composer global require laravel/installer
+cd /var/www/blog.com/
+laravel new blog
+composer create-project --prefer-dist laravel/laravel blog
+composer create-project --prefer-dist laravel/laravel
+composer create-project --prefer-dist
+composer create-project --prefer-dist laravel/
+composer create-project --prefer-dist laravel/laravel
+php artisan serve
+php -S blog.com -t public
+php -S localhost:8000 -t public
+cd ~
+cd /var/www/html/
+composer create-project --prefer-dist laravel/laravel
+sudo chmod -R 755 /var/www/htm/
+sudo chmod -R 755 /var/www/htm
+sudo chmod -R 755 /var/www/html
+composer create-project --prefer-dist laravel/laravel
+sudo chmod 775 /var/www/html/
+composer create-project --prefer-dist laravel/laravel blog
+chmod -R 777
+sudo chown -R $USER:$USER /var/www/html/
+composer create-project --prefer-dist laravel/laravel blog
+php -S localhost:8000 -t public
+php -S localhost:8080 -t public
+php artisan serve
+sudo netstat -plnt
+php artisan serve
+php -S localhost:8080 -t public
+php -S localhost:8000 -t public
+php -S localhost:8080 -t public
+ps -ef | grep php 
+php -S localhost:8080 -t public
+ps -ef | grep php 
+kill 5607
+ps -ef | grep php 
+kill 3252
+ps -ef | grep php 
+kill 6476
+ps -ef | grep php 
+kill 6764
+kill 6476
+ps -ef | grep php 
+php -S localhost:8080 -t public
+ps -ef | grep php 
+kill 5607 5611 5611 5612 6476 6785
+
+kill 6476 6785
+kill 6476
+
+sudo service apache2 stop
+php -S localhost:8080 -t public
+sudo fuser -k 8080/tcp
+php -S localhost:8080 -t public
+ls -l
+git init
+below is used to a add a new remote:
+git remote add origin git@github.com:subwayaddicted/laravel_blog_group_practice
+git remote set origin git@github.com:subwayaddicted/laravel_blog_group_practice
+git remote set-url origin git@github.com:subwayaddicted/laravel_blog_group_practice
+git status
+git branch
+git merge origin master
+git checkout -b "feature/kir"
+git branch
+git checkout master
+git pull origin master
+git remote set-url origin git@github.com:subwayaddicted/laravel_blog_group_practice
+git remote rm
+git remote rm origin
+git remote add https://github.com/subwayaddicted/laravel_blog_group_practice
+git remote add origin https://github.com/subwayaddicted/laravel_blog_group_practice
+git status
+git pull origin master
+git branch
+git checkout feature/kir
+git merge origin master
+git pull origin master
+Vlad Novitsky, [11.02.19 16:35]
+git pull origin master --allow-unrelated-histories
+git branch
+git pull origin master
+git pull origin master --allow-unrelated-histories
+git branch
+git checkout master
+git pull origin master
+ln -l
+ls -l
+git pull origin master
+sudo git pull origin master
+git init
+git clone origin https://github.com/subwayaddicted/laravel_blog_group_practice.git
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice.git
+git status
+composer update
+git status
+php -S localhost:8080 -t public
+git pull origin master
+git clean -d -f
+git pull
+git pull origin master
+git branch
+la
+sudo rm -R .git
+sudo rm -R .env
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice .
+composer update
+git pull oroigin master
+git pull origin master
+php -S localhost:8080 -t public
+php artisan serve
+git checkout
+git checkout -b "feature/home"
+sudo service apache2 start
+mysql -h 127.0.0.1 -u root -p  
+git checkout
+git branch
+git add .
+git status
+git commit -m "create home pahe layout"
+git push origin feature/home
+git checkout master
+git pull origin master
+php artisan migrate
+git branch
+git checkout feature/home
+git merge origin master
+git init
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice .
+ls
+cd ..
+ls
+cd blog.com/
+ls
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice .
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice
+composer udpate
+composer update
+sudo service apache2 start
+sudo chmod -R 777 /var/www/example.com/
+sudo service apache2 restart
+rmdir blognew
+sudo rndir blognew
+sudo rmdir blognew
+sudo rmdir git
+sudo rmdir blognew
+ln -s
+php -m
+sudo nano 123.php
+sudo service apache2 restart
+php artisan serve
+sudo a2enmod php7.2
+sudo service apache2 reload
+sudo a2dismod php5
+php -v
+php public/index.php 
+sudo service apache2 restart
+apache
+apache2
+apache2 status
+sudo service apache2 status
+cd /etc/apache2/sites-available/
+ls
+cat blog.com.conf 
+sudo service apache2 restart
+sudo chmod -R 755 /var/www
+nano index.php
+sudo service apache2 stop
+sudo service apache2 start
+sudo service apache2 restart
+nano index.php
+sudo service apache2 restart
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice .
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice
+sudo rmdir blog.com
+sudo rmdir /blog.com
+sudo rmdir blog.com
+rmdir blog.com
+sudo rmdir blog.com
+cd blog.com
+ls
+ln -s
+ln - s
+ls -s
+rmdir blog.com
+ln -s
+ls
+ls -la
+rm .
+rm .git
+rmdir .git
+sudo rmdir .git
+rm -rf .git
+ls -la
+rm -rf .
+rm -rf ..
+cd ../
+rm -rf blog.com
+sudo rm -rf blog.com
+sudo rm -rf blognew
+mkdir blog.com
+sudo mkdir blog.com
+sudo rm -rf example.com
+mkdir example.com
+sudo mkdir example.com
+git clone https://github.com/subwayaddicted/laravel_blog_group_practice .
+sudo git clone https://github.com/subwayaddicted/laravel_blog_group_practice .
+composer update
+sudo composer update
+git pull origin master
+sudo git pull origin master
+udo chmod -R 777 /var/www/blog.com/
+sudo chmod -R 777 /var/www/blog.com/
+php artisan db:seed
+php artisan make:migrate
+php artisan migrate
+git pull origin master
+git branch
+git checkout feature/contact
+git branch
+git pull origin master --force
+git pull origin master
+git clone https://github.com/kirmessi/phpblog . 
+sudo git clone https://github.com/kirmessi/phpblog . 
+composer update
+sudo composer update
+sudo service apache2 restart
+sudo chmod -R 777 /var/www/example.com/
+git pull origin master
+git branch
+git 
+sudo git clone https://github.com/kirmessi/phpblog . 
+sudo chown -R $USER:$USER /var/www/example.com/
+mysql -h 127.0.0.1 -u root -p
+git pull origin dev
+cd ../
+sudo ln -s ~/example.com
+sudo ln -s ~/example.com exec.com
+la
+ll
+cd exec.com
+ls
+pwd
+cd ..
+sudo rm -r -f example.com
+sudo ln -s ~/example.com example.com
+nano example.com
+/var/www/blog.com/app
+/var/www/blog.com/bootstrap
+/var/www/blog.com/config
+/var/www/blog.com/database
+/var/www/blog.com/public
+/var/www/blog.com/resources
+/var/www/blog.com/routes
+/var/www/blog.com/storage
+/var/www/blog.com/tests
+/var/www/blog.com/vendor
+/var/www/blog.com/.git
+/var/www/blog.com/artisan
+/var/www/blog.com/composer.json
+/var/www/blog.com/composer.lock
+/var/www/blog.com/laravel_blog.sql
+/var/www/blog.com/package.json
+/var/www/blog.com/package-lock.json
+/var/www/blog.com/phpunit.xml
+/var/www/blog.com/readme.md
+/var/www/blog.com/server.php
+/var/www/blog.com/webpack.mix.js
+/var/www/blog.com/.editorconfig
+/var/www/blog.com/.env
+/var/www/blog.com/.gitattributes
+sudo ln -s ~/blog.com blog.com
+cd blog.com
+git pull origin master
+pull origin master
+git branch
+git pull origin master
+git checkout -b feature/layout
+git branch
+git checkout master
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
+git pull origin master
+git checkout -b /feature/layout
+git checkout -b feature/layout
+git checkout feautre/layout
+git checkout feature/layout
+git pull origin master
+git add .
+git status
+git push origin feature/lyaout
+git push origin feature/layout
+git branch
+git add .
+git status
+git commit -m "create layout for categories"
+git push origin feature/layout
+sudo service apache2 start
+alisas start="sudo service apache2 start"
+alias start="sudo service apache2 start"
+alias stop="sudo service apache2 stop"
+
+stop
+start
+restart
+la
+sudo nano ~/.bash_aliases
+. ~/.bashrc
+alias
+start
+git pull origin dev
+sudo chmod -R 777 /var/www/test.com/public_html/wp-content/
+sudo chown -R $USER:$USER /var/www/test.com/public_html/
+sudo chmod -R 777 /var/www
+sudo chmod -R 777 /var/www/test.com/public_html/wp-content/uploads/
+sudo chmod -R 777 /var/www/test.com/public_html/wp-content/
+git status
+git add .
+git commit -m "testing"
+git push origin dev
+git push
+git branch
+git remote add https://github.com/kirmessi/wp-custom-plugins
+git remote add origin https://github.com/kirmessi/wp-custom-plugins
+git push origin dev
+git push origin master
+start
+git pull origin master
+git status
+git add .
+git commint -m "work filter"
+git commit -m "work filter"
+git push origin master
+git add .
+git push origin master
+git status
+git commit -m "fix"
+git push origin master
+git add .
+git commit -m "finish filter"
+git push origin master
+git status
+git add .
+git commint -m "fixed add_post_meta_box"
+git commit -m "fixed add_post_meta_box"
+git push origin master
+git pull origin master
+git status
+git add .
+git commit -m "fix"
+git push origin master
+git status
+git add .
+git commit -m "extends BaseTaxonomy"
+git push origin master
+git status
+git add .
+git commit -m "withput rest"
+git push origin master
+start
+git init
+//github.com/kirmessi/Ajax-Custom-Filter.git
+git remote add origin https://github.com/kirmessi/Ajax-Custom-Filter
+git pull origin master
+start
+cd ~
+sudo mkdir -p /var/www/drupal.com/public_html
+sudo chown -R $USER:$USER /var/www/drupal.com/public_html
+sudo chmod -R 755 /var/www
+nano /var/www/drupal.com/public_html/index.html
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/drupal.com.conf
+sudo nano /etc/apache2/sites-available/drupal.com.conf
+sudo a2ensite drupal.com.conf
+sudo systemctl restart apache2
+composer install
+mysql -u username -p -e "CREATE DATABASE databasename CHARACTER SET utf8 COLLATE utf8_general_ci";
+mysql -u username -p
+mysql -u root -p
+mkdir sites/default/files
+chmod 775 sites/default/files
+chmod 666 sites/default/settings.php
+chmod -R 777 sites/default/files
+cp sites/default/default.settings.php sites/default/settings.php 
+chmod 644 sites/default/settings.php 
+ls -l sites/ 
+ls -l sites/default/settings.php 
+chmod 666 sites/default/settings.php
+vim sites/default/settings.php
+cp sites/example.settings.local.php sites/default/settings.local.php
+vim sites/default/settings.local.php
+sudo apt install vim
+vim sites/default/settings.local.php
+nano sites/default/settings.local.php
+chmod 644 sites/default/settings.php
+git init
+git remote add origin https://github.com/kirmessi/drupal.git
+git status
+git add .
+git status
+git git status
+git status
+git commit -m "installed drupal"
+git push origin master
+git pull
+git pull origin master
+git status
+git add .
+git commit -m "push"
+git push origin master
+git pull
+git pull origin master
+git init
+git status
+git push origin master
+start
+sudo mkdir -p /var/www/site.ru/public_html
+sudo chown -R $USER:$USER /var/www/site.ru/public_html
+sudo chmod -R 755 /var/www
+nano /var/www/site.ru/public_html/index.html
+sudo cp /etc/apache2/sites-available/drupal.conf /etc/apache2/sites-available/site.ru.conf
+sudo cp /etc/apache2/sites-available/drupal.com.conf /etc/apache2/sites-available/site.ru.conf
+sudo nano /etc/apache2/sites-available/site.ru.conf
+sudo a2ensite site.ru.conf
+sudo systemctl restart apache2
+sudo service apache2 restart
+sudo nano /etc/hosts
+cd /var/www/site.ru/public_html/
+copmoser install
+composer install
+cd /usr/local
+sudo git clone https://github.com/drush-ops/drush
+cd drush/
+sudo composer update
+php drush --version
+sudo rm -f /usr/local/bin/drush
+sudo ln -s /usr/local/drush/drush /usr/local/bin/drush
+cd ~
+drush --version
+cd /var/wwww/site.ru/public_html/
+cd /var/wwww/site.ru/public_html
+cd /var/www/site.ru/public_html
+mkdir sites/default/files
+chmod 775 sites/default/files
+cp sites/default/default.settings.php sites/default/settings.php
+chmod 666 sites/default/settings.php
+chmod 777 sites/default/files
+chmod 644 sites/default/settings.php
+git init
+git remote add origin git@github.com:kirmessi/drupal.git
+git pull origin master
+git remote add origin https://github.com/kirmessi/drupal.git
+git remote add https://github.com/kirmessi/drupal.git
+git remote add url https://github.com/kirmessi/drupal.git
+git status
+git pull origin master
+git clone https://github.com/kirmessi/drupal.git 
+git clone https://github.com/kirmessi/drupal.git . 
+drush config-import --source:bd
+
+drush config-import --source: /config-export directory
+ls -la
+ls -la config/
+drush config-import --source=./config
+drush cget system.site uuid
+vim config/system.site.yml 
+drush cset system.site uuid "3f0ad4eb-7fc6-4587-b25d-eac226e567e4"
+sed -i 's/3f0ad4eb-7fc6-4587-b25d-eac226e567e4/ada0afaf-7191-4405-9915-aa965975216e/g' ./config/
+sed -i 's/3f0ad4eb-7fc6-4587-b25d-eac226e567e4/ada0afaf-7191-4405-9915-aa965975216e/g' ./config/*
+vim config/system.site.yml 
+drush config-import --source=./config
+composer update
+sudo composer update
+
+git status
+git add config/ 
+git commit -m "configs files"
+git status
+drush config-export --destination=./config
+git status
+git diff config/block.block.webform_2.yml
+git diff config/block.block.webform.yml
+vim config/block.block.webform.yml
+git diff config/block.block.webform_2.yml
+vim config/block.block.webform.yml
+git diff config/block.block.webform_2.yml
+vim config/block.block.webform_2.yml
+vim config/block.block.webform.yml 
+vi config/block.block.webform_2.yml
+git checkout config/block.block.webform_2.yml
+git status
+drush config-import --source=./config
+
+git status
+git diff config/block.block.webform_2.yml
+drush cget system.site uuid
+git status
+git add .
+git
+git status
+git commit -m "fixed webform"
+git push origin master
+git push
+git checkout
+git branch
+git remote -v
+git remote add https://github.com/kirmessi/drupal.git
+git push origin master
+git remote add origin https://github.com/kirmessi/drupal.git
+git status
+git add .
+git push origin master
+git remote -v
+git config --list
+git push url master
+git remote rm origin
+git config --list
+git remote add origin https://github.com/kirmessi/drupal.git
+git fetch
+git push origin master --force
+git status
+cd /var/www/test.com/public_html/ 
+git status
+git add .
+git connit -m "test"
+git push origin master
+git status
+git add .
+git commit -m "jqueryloader"
+git push origin master
+start
+cd /var/www/site.ru/public_html
+git pull origin master
+drush config-import --source=./config
+drush cr
+composer require 'drupal/features:^3.8'
+sudo composer require 'drupal/features:^3.8'
+drush en features -y
+yes
+drush en features -y
+drush cr
+php -v
+drush cr
+git status
+git add .
+git commit -m "create new theme"
+git push origin master
+chmod -R 777 modules/custom/
+sudo chmod -R 777 modules/custom/
+sudo chmod -R 777 modules/custom/mymodule
+git status
+git add .
+git commit -m "added feature settings module"
+git status
+git push origin master
+drush config-export --destination=./config
+git status
+git add .
+git commit -m "added congig-export files"
+git push origin master
+start
+git pull origin master
+drush config-import --source=./config
+drush config-import --source=./config --partial
+drush config-import --source=./config --diff
+drush cr
+drush config-import --source=./config
+git pull origin master
+grep -rnw 'Laptops Phones' ./config/
+ls -la ./config/laptops_phones.settings.yml
+vim ./config/laptops_phones.settings.yml
+ls -la ./sites/all/modules
+rm -f ./config/laptops_phones.settings.yml
+drush config-import --source=./config
+drush cr
+git status
+git add README.md
+git commit - m "update"
+git status
+git add sites/all/modules/*
+git commit - m "change the directory"
+git status
+git add.
+git add .
+git commit - m "delete files"
+git status
+git push origin master
+git push 
+git push origin master
+git status
+git push origin master
+git remote -v
+drush config-export --destination=./config
+git status
+git push master
+git push origin master
+git pull origin master
+git commit -m "delete files"
+git commit -m "delete files and change path"
+git push origin master
+cd ~
+php -v
+sudo apt install php-xdebug

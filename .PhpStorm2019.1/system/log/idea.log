@@ -1,0 +1,920 @@
+2019-03-06 16:55:31,117 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-03-06 16:55:31,159 [     42]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.5849.26, 27 Feb 2019 18:15) 
+2019-03-06 16:55:31,159 [     42]   INFO -        #com.intellij.idea.Main - OS: Linux (4.15.0-45-generic, amd64) 
+2019-03-06 16:55:31,159 [     42]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b31 (JetBrains s.r.o) 
+2019-03-06 16:55:31,159 [     42]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b31 (OpenJDK 64-Bit Server VM) 
+2019-03-06 16:55:31,161 [     44]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:MaxJavaStackTraceDepth=10000 -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/cmsstudent/java_error_in_PHPSTORM_%p.log -XX:HeapDumpPath=/home/cmsstudent/java_error_in_PHPSTORM.hprof -Didea.paths.selector=PhpStorm2019.1 -Djb.vmOptionsFile=/opt/PhpStorm-191.5849.26/bin/phpstorm64.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true 
+2019-03-06 16:55:31,161 [     44]   INFO -        #com.intellij.idea.Main - ext: /opt/PhpStorm-191.5849.26/jre64/lib/ext: [meta-index, cldrdata.jar, sunec.jar, sunpkcs11.jar, jaccess.jar, sunjce_provider.jar, zipfs.jar, localedata.jar, nashorn.jar, dnsns.jar, jfxrt.jar] 
+2019-03-06 16:55:31,161 [     44]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-03-06 16:55:31,180 [     63]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 19 ms 
+2019-03-06 16:55:32,825 [   1708]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-03-06 16:55:32,826 [   1709]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-03-06 16:55:40,444 [   9327]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-03-06 16:55:47,971 [  16854]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor java-specific.xml 
+2019-03-06 16:55:47,976 [  16859]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor javaee-specific.xml 
+2019-03-06 16:55:48,072 [  16955]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-03-06 16:55:48,074 [  16957]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-03-06 16:55:48,193 [  17076]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-03-06 16:55:48,332 [  17215]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 551 ms 
+2019-03-06 16:56:05,252 [  34135]   INFO - .intellij.util.io.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/pluginManager/?action=download&id=ru.adelf.idea.dotenv&build=PS-191.5849.26&uuid=385a116f-1331-4be3-835b-8190f37cdf2c 
+2019-03-06 16:56:09,320 [  38203]   INFO - .intellij.util.io.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/pluginManager/?action=download&id=org.editorconfig.editorconfigjetbrains&build=PS-191.5849.26&uuid=385a116f-1331-4be3-835b-8190f37cdf2c 
+2019-03-06 16:56:16,637 [  45520]   INFO - .intellij.util.io.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/pluginManager/?action=download&id=com.dmarcotte.handlebars&build=PS-191.5849.26&uuid=385a116f-1331-4be3-835b-8190f37cdf2c 
+2019-03-06 16:56:17,868 [  46751]   INFO - .intellij.util.io.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/pluginManager/?action=download&id=com.intellij.ideolog&build=PS-191.5849.26&uuid=385a116f-1331-4be3-835b-8190f37cdf2c 
+2019-03-06 16:56:21,339 [  50222]   INFO - .intellij.idea.IdeaApplication - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@6a81067c[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@1129772a 
+2019-03-06 16:56:21,366 [  50249]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-03-06 16:56:21,604 [  50487]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor java-specific.xml 
+2019-03-06 16:56:21,607 [  50490]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor javaee-specific.xml 
+2019-03-06 16:56:21,653 [  50536]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-03-06 16:56:21,654 [  50537]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-03-06 16:56:21,751 [  50634]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-03-06 16:56:21,873 [  50756]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 334 ms 
+2019-03-06 16:56:21,879 [  50762]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-03-06 16:56:22,033 [  50916]   INFO - llij.ide.plugins.PluginManager - 69 plugins initialized in 495 ms 
+2019-03-06 16:56:22,033 [  50916]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.5849.26), AngularJS (191.5849.26), Apache config (.htaccess) support (191.5849.26), Behat Support (191.5849.26), Blade Support (191.5849.26), CSS Support (191.5849.26), Codeception Framework (191.5849.26), CoffeeScript (191.5849.26), Command Line Tool Support (191.5849.26), Copyright (191.5849.26), DQL Support (191.5849.26), Database Tools and SQL (191.5849.26), Docker integration (191.5849.26), Drupal Support (191.5849.26), File Watchers (191.5849.26), GNU GetText files support (*.po) (191.5849.26), Gherkin (191.5849.26), Git Integration (191.5849.26), GitHub (191.5849.26), HTML Tools (191.5849.26), HTTP Client (191.5849.26), Haml (191.5849.26), IDE Settings Sync (191.5849.26), IDEA CORE (191.5849.26), Ini4Idea (191.5849.26), IntelliLang (191.5849.26), JavaScript Debugger (191.5849.26), JavaScript Intention Power Pack (191.5849.26), JavaScript Support (191.5849.26), Joomla! Support (191.5849.26), Less support (191.5849.26), Markdown support (191.5849.26), Mercurial Integration (191.5849.26), NodeJS (191.5849.26), PHP (191.5849.26), PHP Docker (191.5849.26), PHP Remote Interpreter (191.5849.26), PHPSpec BDD Framework (191.5849.26), Perforce Integration (191.5849.26), Performance Testing (191.5849.26), Phing Support (191.5849.26), PhpStorm Workshop (191.5849.26), ReStructuredText Support (191.5849.26), Refactor-X (191.5849.26), Remote Hosts Access (191.5849.26), SSH Remote Run (191.5849.26), Sass support (191.5849.26), Settings Repository (191.5849.26), Subversion (191.5849.26), Task Management (191.5849.26), Terminal (191.5849.26), TextMate bundles support (191.5849.26), Time Tracking (191.5849.26), Twig Support (191.5849.26), UML Support (191.5849.26), Vagrant (191.5849.26), Vue.js (191.5849.26), W3C Validators (191.5849.26), WordPress Support (191.5849.26), XPathView + XSLT Support (191.5849.26), XSLT-Debugger (191.5849.26), YAML (191.5849.26), hunspell (191.5849.26), tslint (191.5849.26) 
+2019-03-06 16:56:22,033 [  50916]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: .env files support (0.7), EditorConfig (191.5849.24), Handlebars/Mustache (191.5849.16), Ideolog (191.0.7.0) 
+2019-03-06 16:56:22,033 [  50916]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.5849.26) 
+2019-03-06 16:56:22,474 [  51357]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 154 ms 
+2019-03-06 16:56:22,500 [  51383]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-03-06 16:56:22,602 [  51485]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 33 ms 
+2019-03-06 16:56:22,636 [  51519]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/cmsstudent/.PhpStorm2019.1/system/caches/names.dat' does not exist 
+2019-03-06 16:56:22,637 [  51520]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=713 
+2019-03-06 16:56:22,667 [  51550]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 61 ms 
+2019-03-06 16:56:22,676 [  51559]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/PhpStorm-191.5849.26/bin/fsnotifier64 
+2019-03-06 16:56:22,676 [  51559]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 70 ms 
+2019-03-06 16:56:22,696 [  51579]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-03-06 16:56:22,697 [  51580]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 94 ms 
+2019-03-06 16:56:22,701 [  51584]   INFO - ij.components.ComponentManager - com.intellij.configurationStore.StoreAwareProjectManager initialized in 98 ms 
+2019-03-06 16:56:23,199 [  52082]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 497 ms 
+2019-03-06 16:56:23,219 [  52102]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 13 ms 
+2019-03-06 16:56:23,233 [  52116]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2019-03-06 16:56:23,235 [  52118]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2019-03-06 16:56:23,576 [  52459]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 371 ms 
+2019-03-06 16:56:23,596 [  52479]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 391 ms 
+2019-03-06 16:56:23,600 [  52483]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2019-03-06 16:56:23,600 [  52483]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2019-03-06 16:56:23,614 [  52497]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 16 ms 
+2019-03-06 16:56:24,034 [  52917]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.laf.LafManagerImpl initialized in 409 ms 
+2019-03-06 16:56:24,058 [  52941]   INFO - ij.components.ComponentManager - com.intellij.notification.impl.NotificationsConfigurationImpl initialized in 13 ms 
+2019-03-06 16:56:24,084 [  52967]   INFO - ij.components.ComponentManager - com.intellij.util.net.HttpConfigurable initialized in 19 ms 
+2019-03-06 16:56:24,110 [  52993]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-03-06 16:56:24,111 [  52994]   INFO - ij.components.ComponentManager - com.intellij.util.net.ssl.CertificateManager initialized in 26 ms 
+2019-03-06 16:56:24,132 [  53015]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-03-06 16:56:24,152 [  53035]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryExtensionCollector initialized in 22 ms 
+2019-03-06 16:56:24,168 [  53051]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-03-06 16:56:24,188 [  53071]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-03-06 16:56:24,246 [  53129]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.WindowManagerImpl initialized in 88 ms 
+2019-03-06 16:56:24,258 [  53141]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.FocusManagerImpl initialized in 105 ms 
+2019-03-06 16:56:24,300 [  53183]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 42 ms 
+2019-03-06 16:56:24,316 [  53199]   INFO - ij.components.ComponentManager - com.intellij.ide.SaveAndSyncHandlerImpl initialized in 15 ms 
+2019-03-06 16:56:24,326 [  53209]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-03-06 16:56:24,327 [  53210]   INFO - gs.impl.UpdateCheckerComponent - channel forced to 'eap' 
+2019-03-06 16:56:24,386 [  53269]   INFO - ij.components.ComponentManager - com.intellij.openapi.updateSettings.impl.UpdateCheckerComponent initialized in 67 ms 
+2019-03-06 16:56:24,467 [  53350]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.ex.QuickListsManager initialized in 75 ms 
+2019-03-06 16:56:24,676 [  53559]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:192, number of extensions:55 
+2019-03-06 16:56:24,713 [  53596]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:36 
+2019-03-06 16:56:24,713 [  53596]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 237 ms 
+2019-03-06 16:56:24,734 [  53617]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.SerializationManagerImpl initialized in 26 ms 
+2019-03-06 16:56:24,755 [  53638]   INFO - il.indexing.FileBasedIndexImpl - Index FilenameIndex will be built. 
+2019-03-06 16:56:24,842 [  53725]   INFO - il.indexing.FileBasedIndexImpl - Index filetypes will be built. 
+2019-03-06 16:56:24,870 [  53753]   INFO - il.indexing.FileBasedIndexImpl - Index FrameworkDetectionIndex will be built. 
+2019-03-06 16:56:24,985 [  53868]   INFO - il.indexing.FileBasedIndexImpl - Index TodoIndex will be built. 
+2019-03-06 16:56:24,991 [  53874]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:270, number of extensions:89 
+2019-03-06 16:56:24,992 [  53875]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-03-06 16:56:24,992 [  53875]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 277 ms 
+2019-03-06 16:56:25,011 [  53894]   INFO - ij.components.ComponentManager - com.intellij.tools.ToolManager initialized in 18 ms 
+2019-03-06 16:56:25,051 [  53934]   INFO - ij.components.ComponentManager - com.intellij.execution.ExecutorRegistryImpl initialized in 39 ms 
+2019-03-06 16:56:25,066 [  53949]   INFO - ij.components.ComponentManager - com.intellij.platform.PlatformProjectStarter initialized in 14 ms 
+2019-03-06 16:56:25,077 [  53960]   INFO - ij.components.ComponentManager - com.intellij.ide.b.f initialized in 11 ms 
+2019-03-06 16:56:25,090 [  53973]   INFO - ij.components.ComponentManager - org.jetbrains.plugins.phpstorm.PhpStormInitialConfigurator initialized in 11 ms 
+2019-03-06 16:56:25,115 [  53998]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.updater.StatisticsJobsScheduler initialized in 25 ms 
+2019-03-06 16:56:25,139 [  54022]   INFO - ij.components.ComponentManager - org.intellij.plugins.xpathView.XPathAppComponent initialized in 23 ms 
+2019-03-06 16:56:25,195 [  54078]   INFO - ij.components.ComponentManager - org.intellij.lang.xpath.xslt.impl.XsltConfigImpl initialized in 55 ms 
+2019-03-06 16:56:25,240 [  54123]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt id-index from /home/cmsstudent/.PhpStorm2019.1/system/index/.persistent/prebuilt/PHP/id-index.input 
+2019-03-06 16:56:25,269 [  54152]   INFO - il.indexing.FileBasedIndexImpl - Index IdIndex will be built. 
+2019-03-06 16:56:25,274 [  54157]   INFO - il.indexing.FileBasedIndexImpl - Index Stubs will be built. 
+2019-03-06 16:56:25,393 [  54276]   INFO - ij.components.ComponentManager - com.intellij.ideolog.intentions.LogIntentionLoaderComponent initialized in 197 ms 
+2019-03-06 16:56:25,428 [  54311]   INFO - ij.components.ComponentManager - org.jetbrains.plugins.textmate.TextMateApplicationComponent initialized in 32 ms 
+2019-03-06 16:56:25,578 [  54461]   INFO - plication.impl.ApplicationImpl - 75 application components initialized in 4044ms 
+2019-03-06 16:56:25,619 [  54502]   INFO - .intellij.idea.IdeaApplication - App initialization took 55995 ms 
+2019-03-06 16:56:25,676 [  54559]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:Sass,JSX Harmony,Handlebars/Mustache,ECMAScript 6,SCSS,XML,Flow,Vue.js,Literate CoffeeScript,HTML,SQL,Twig,htaccess,TypeScript,ActionScript,Markdown,Angular2Html,CoffeeScript,Angular Metadata JSON,Ini,TypeScript JSX,PHP,JavaScript,CSS,Less 
+2019-03-06 16:56:25,797 [  54680]   INFO - il.indexing.FileBasedIndexImpl - Index Trigram.Index will be built. 
+2019-03-06 16:56:25,869 [  54752]   INFO - il.indexing.FileBasedIndexImpl - Index fileIncludes will be built. 
+2019-03-06 16:56:25,962 [  54845]   INFO - il.indexing.FileBasedIndexImpl - Index DomFileIndex will be built. 
+2019-03-06 16:56:25,964 [  54847]   INFO - il.indexing.FileBasedIndexImpl - Index RelaxSymbolIndex will be built. 
+2019-03-06 16:56:25,981 [  54864]   INFO - il.indexing.FileBasedIndexImpl - Index XmlTagNames will be built. 
+2019-03-06 16:56:25,998 [  54881]   INFO - il.indexing.FileBasedIndexImpl - Index XmlNamespaces will be built. 
+2019-03-06 16:56:26,006 [  54889]   INFO - il.indexing.FileBasedIndexImpl - Index html5.custom.attributes.index will be built. 
+2019-03-06 16:56:26,036 [  54919]   INFO - il.indexing.FileBasedIndexImpl - Index SchemaTypeInheritance will be built. 
+2019-03-06 16:56:26,064 [  54947]   INFO - il.indexing.FileBasedIndexImpl - Index json.file.root.values will be built. 
+2019-03-06 16:56:26,069 [  54952]   INFO - il.indexing.FileBasedIndexImpl - Index ImageFileInfoIndex will be built. 
+2019-03-06 16:56:26,074 [  54957]   INFO - il.indexing.FileBasedIndexImpl - Index HtmlTagIdIndex will be built. 
+2019-03-06 16:56:26,086 [  54969]   INFO - il.indexing.FileBasedIndexImpl - Index XsltSymbolIndex will be built. 
+2019-03-06 16:56:26,107 [  54990]   INFO - il.indexing.FileBasedIndexImpl - Index CssIndex will be built. 
+2019-03-06 16:56:26,117 [  55000]   INFO - il.indexing.FileBasedIndexImpl - Index css.template.selectors will be built. 
+2019-03-06 16:56:26,122 [  55005]   INFO - il.indexing.FileBasedIndexImpl - Index editorconfig.index.name will be built. 
+2019-03-06 16:56:26,125 [  55008]   INFO - il.indexing.FileBasedIndexImpl - Index sql.types.count.index will be built. 
+2019-03-06 16:56:26,145 [  55028]   INFO - il.indexing.FileBasedIndexImpl - Index sql.routine.index will be built. 
+2019-03-06 16:56:26,151 [  55034]   INFO - il.indexing.FileBasedIndexImpl - Index CompassFunctionsIndex will be built. 
+2019-03-06 16:56:26,179 [  55062]   INFO - il.indexing.FileBasedIndexImpl - Index js.test.names will be built. 
+2019-03-06 16:56:26,196 [  55079]   INFO - il.indexing.FileBasedIndexImpl - Index js.package.index will be built. 
+2019-03-06 16:56:26,199 [  55082]   INFO - il.indexing.FileBasedIndexImpl - Index js.custom.single.entry.index will be built. 
+2019-03-06 16:56:26,228 [  55111]   INFO - il.indexing.FileBasedIndexImpl - Index js.implicit.elements.index will be built. 
+2019-03-06 16:56:26,234 [  55117]   INFO - j.ide.ui.OptionsTopHitProvider - 2184 ms spent to cache options in application 
+2019-03-06 16:56:26,235 [  55118]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 2184 ms 
+2019-03-06 16:56:26,236 [  55119]   INFO - il.indexing.FileBasedIndexImpl - Index angularjs.template.cache will be built. 
+2019-03-06 16:56:26,239 [  55122]   INFO - il.indexing.FileBasedIndexImpl - Index angularjs.ui.router.views.index will be built. 
+2019-03-06 16:56:26,253 [  55136]   INFO - il.indexing.FileBasedIndexImpl - Index angularjs.app.index will be built. 
+2019-03-06 16:56:26,258 [  55141]   INFO - il.indexing.FileBasedIndexImpl - Index http.request.execution.environment will be built. 
+2019-03-06 16:56:26,271 [  55154]   INFO - il.indexing.FileBasedIndexImpl - Index php.class.name will be built. 
+2019-03-06 16:56:26,286 [  55169]   INFO - il.indexing.FileBasedIndexImpl - Index php.constant.name will be built. 
+2019-03-06 16:56:26,289 [  55172]   INFO - il.indexing.FileBasedIndexImpl - Index php.function.name will be built. 
+2019-03-06 16:56:26,303 [  55186]   INFO - il.indexing.FileBasedIndexImpl - Index php.variable.name will be built. 
+2019-03-06 16:56:26,312 [  55195]   INFO - il.indexing.FileBasedIndexImpl - Index php.method.name will be built. 
+2019-03-06 16:56:26,315 [  55198]   INFO - il.indexing.FileBasedIndexImpl - Index php.class.fqn will be built. 
+2019-03-06 16:56:26,317 [  55200]   INFO - il.indexing.FileBasedIndexImpl - Index php.interface.fqn will be built. 
+2019-03-06 16:56:26,337 [  55220]   INFO - il.indexing.FileBasedIndexImpl - Index php.invoke.calls.offsets will be built. 
+2019-03-06 16:56:26,362 [  55245]   INFO - il.indexing.FileBasedIndexImpl - Index php.namespace.inheritance will be built. 
+2019-03-06 16:56:26,365 [  55248]   INFO - il.indexing.FileBasedIndexImpl - Index php.trait.usage will be built. 
+2019-03-06 16:56:26,378 [  55261]   INFO - il.indexing.FileBasedIndexImpl - Index php.unit.covers will be built. 
+2019-03-06 16:56:26,404 [  55287]   INFO - il.indexing.FileBasedIndexImpl - Index php.class.alias.name will be built. 
+2019-03-06 16:56:26,410 [  55293]   INFO - il.indexing.FileBasedIndexImpl - Index php.class.alias.to.class will be built. 
+2019-03-06 16:56:26,419 [  55302]   INFO - il.indexing.FileBasedIndexImpl - Index php.class.to.class.alias will be built. 
+2019-03-06 16:56:26,446 [  55329]   INFO - il.indexing.FileBasedIndexImpl - Index php.expected.function.arguments will be built. 
+2019-03-06 16:56:26,484 [  55367]   INFO - il.indexing.FileBasedIndexImpl - Index php.expected.function.return.values will be built. 
+2019-03-06 16:56:26,496 [  55379]   INFO - il.indexing.FileBasedIndexImpl - Index drupal.hook.name will be built. 
+2019-03-06 16:56:26,503 [  55386]   INFO - il.indexing.FileBasedIndexImpl - Index wordpress.hook.invocations will be built. 
+2019-03-06 16:56:26,537 [  55420]   INFO - il.indexing.FileBasedIndexImpl - Index yaml.keys.name will be built. 
+2019-03-06 16:56:26,564 [  55447]   INFO - il.indexing.FileBasedIndexImpl - Index docker.compose.services will be built. 
+2019-03-06 16:56:26,567 [  55450]   INFO - il.indexing.FileBasedIndexImpl - Index ru.adelf.idea.php.dotenv.keys will be built. 
+2019-03-06 16:56:26,582 [  55465]   INFO - il.indexing.FileBasedIndexImpl - Index ru.adelf.idea.php.dotenv.keyValues will be built. 
+2019-03-06 16:56:26,593 [  55476]   INFO - il.indexing.FileBasedIndexImpl - Index ru.adelf.idea.php.dotenv.usages will be built. 
+2019-03-06 16:56:26,636 [  55519]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 06.03.19 16:55) 
+2019-03-06 16:56:26,641 [  55524]   INFO - pl$FileIndexDataInitialization - Initialization done:1932 
+2019-03-06 16:56:26,652 [  55535]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index dom.namespaceKey will be built. 
+2019-03-06 16:56:26,670 [  55553]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index dom.elementClass will be built. 
+2019-03-06 16:56:26,671 [  55554]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index ini.property.key will be built. 
+2019-03-06 16:56:26,672 [  55555]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.ampersand.selector will be built. 
+2019-03-06 16:56:26,673 [  55556]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.class will be built. 
+2019-03-06 16:56:26,675 [  55558]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.id will be built. 
+2019-03-06 16:56:26,676 [  55559]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.attr will be built. 
+2019-03-06 16:56:26,694 [  55577]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.custom.property will be built. 
+2019-03-06 16:56:26,702 [  55585]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Css.custom.mixin will be built. 
+2019-03-06 16:56:26,704 [  55587]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index sql.table.shortName will be built. 
+2019-03-06 16:56:26,706 [  55589]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index sql.column.name will be built. 
+2019-03-06 16:56:26,708 [  55591]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index sql.names will be built. 
+2019-03-06 16:56:26,718 [  55601]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index markdown.header will be built. 
+2019-03-06 16:56:26,719 [  55602]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Less.mixins will be built. 
+2019-03-06 16:56:26,727 [  55610]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Less.variables will be built. 
+2019-03-06 16:56:26,728 [  55611]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Scss.variable will be built. 
+2019-03-06 16:56:26,730 [  55613]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Scss.placeholder.selector will be built. 
+2019-03-06 16:56:26,734 [  55617]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Scss.function will be built. 
+2019-03-06 16:56:26,741 [  55624]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index Scss.mixin will be built. 
+2019-03-06 16:56:26,743 [  55626]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.qualified.shortName will be built. 
+2019-03-06 16:56:26,744 [  55627]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.element.qualifiedName will be built. 
+2019-03-06 16:56:26,745 [  55628]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.global.qualified.elements will be built. 
+2019-03-06 16:56:26,746 [  55629]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index ts.external.module.index will be built. 
+2019-03-06 16:56:26,747 [  55630]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.class.super will be built. 
+2019-03-06 16:56:26,748 [  55631]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.class.implements will be built. 
+2019-03-06 16:56:26,768 [  55651]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.custom.stub.index will be built. 
+2019-03-06 16:56:26,769 [  55652]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.symbol.index2 will be built. 
+2019-03-06 16:56:26,779 [  55662]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.typedef.index2 will be built. 
+2019-03-06 16:56:26,780 [  55663]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.generics.index will be built. 
+2019-03-06 16:56:26,781 [  55664]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.base.types.index will be built. 
+2019-03-06 16:56:26,782 [  55665]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.class.index2 will be built. 
+2019-03-06 16:56:26,783 [  55666]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.namespace.index will be built. 
+2019-03-06 16:56:26,785 [  55668]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.namespace.including.local.members.index will be built. 
+2019-03-06 16:56:26,798 [  55681]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index JS.subclass.stub.index will be built. 
+2019-03-06 16:56:26,800 [  55683]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.symbol.qualified.names.index will be built. 
+2019-03-06 16:56:26,801 [  55684]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index amd.baseUrl.index will be built. 
+2019-03-06 16:56:26,810 [  55693]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index amd.requirePaths.index will be built. 
+2019-03-06 16:56:26,812 [  55695]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.global.symbol.index will be built. 
+2019-03-06 16:56:26,813 [  55696]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.exported.index will be built. 
+2019-03-06 16:56:26,832 [  55715]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index es6.exported.index will be built. 
+2019-03-06 16:56:26,833 [  55716]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index es6.assignment.index will be built. 
+2019-03-06 16:56:26,839 [  55722]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index ts.local.classes will be built. 
+2019-03-06 16:56:26,844 [  55727]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index ts.embedded.content.index will be built. 
+2019-03-06 16:56:26,847 [  55730]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.nonglobal.symbol.index will be built. 
+2019-03-06 16:56:26,848 [  55731]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.gcl.modules will be built. 
+2019-03-06 16:56:26,849 [  55732]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.doc.modules will be built. 
+2019-03-06 16:56:26,858 [  55741]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index js.amd.modules will be built. 
+2019-03-06 16:56:26,864 [  55747]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.directives.index will be built. 
+2019-03-06 16:56:26,866 [  55749]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.directives.doc.index will be built. 
+2019-03-06 16:56:26,871 [  55754]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.controller.index will be built. 
+2019-03-06 16:56:26,873 [  55756]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.module.index will be built. 
+2019-03-06 16:56:26,874 [  55757]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.filter.index will be built. 
+2019-03-06 16:56:26,889 [  55772]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.symbol.index will be built. 
+2019-03-06 16:56:26,894 [  55777]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.ui.router.states.index will be built. 
+2019-03-06 16:56:26,895 [  55778]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.ui.router.generic.states.index will be built. 
+2019-03-06 16:56:26,896 [  55779]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.templateUrl.index will be built. 
+2019-03-06 16:56:26,904 [  55787]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.generic.modules.index will be built. 
+2019-03-06 16:56:26,905 [  55788]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angularjs.delimiter.index will be built. 
+2019-03-06 16:56:26,906 [  55789]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.templateUrl.index will be built. 
+2019-03-06 16:56:26,916 [  55799]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.source.pipe.index will be built. 
+2019-03-06 16:56:26,920 [  55803]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.source.directive.index will be built. 
+2019-03-06 16:56:26,921 [  55804]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.source.module.index will be built. 
+2019-03-06 16:56:26,923 [  55806]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.pipe.index will be built. 
+2019-03-06 16:56:26,924 [  55807]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.entityClassName.index will be built. 
+2019-03-06 16:56:26,934 [  55817]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.directive.index will be built. 
+2019-03-06 16:56:26,936 [  55819]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.node.index will be built. 
+2019-03-06 16:56:26,938 [  55821]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.function.index will be built. 
+2019-03-06 16:56:26,939 [  55822]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index angular2.metadata.module.index will be built. 
+2019-03-06 16:56:26,947 [  55830]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.class.shortName will be built. 
+2019-03-06 16:56:26,948 [  55831]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.interface.shortName will be built. 
+2019-03-06 16:56:26,950 [  55833]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.trait.shortName will be built. 
+2019-03-06 16:56:26,951 [  55834]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.method.shortName will be built. 
+2019-03-06 16:56:26,952 [  55835]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.field.shortName will be built. 
+2019-03-06 16:56:26,954 [  55837]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.classConstant.shortName will be built. 
+2019-03-06 16:56:26,955 [  55838]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.function.shortName will be built. 
+2019-03-06 16:56:26,956 [  55839]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.constant.shortName will be built. 
+2019-03-06 16:56:26,957 [  55840]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.constant.case.sensitive.shortName will be built. 
+2019-03-06 16:56:26,964 [  55847]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.use.shortName will be built. 
+2019-03-06 16:56:26,980 [  55863]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.use.referenceName will be built. 
+2019-03-06 16:56:26,981 [  55864]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.inheritors will be built. 
+2019-03-06 16:56:26,989 [  55872]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.variable.shortName will be built. 
+2019-03-06 16:56:26,990 [  55873]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index php.namespace.shortName will be built. 
+2019-03-06 16:56:26,993 [  55876]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.components.index will be built. 
+2019-03-06 16:56:26,994 [  55877]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.options.index will be built. 
+2019-03-06 16:56:26,996 [  55879]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.mixin.binding.index will be built. 
+2019-03-06 16:56:27,000 [  55883]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.extends.binding.index will be built. 
+2019-03-06 16:56:27,001 [  55884]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.global.directives.index will be built. 
+2019-03-06 16:56:27,002 [  55885]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vue.local.directives.index will be built. 
+2019-03-06 16:56:27,014 [  55897]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index vuex.store.index will be built. 
+2019-03-06 16:56:27,015 [  55898]   INFO - exImpl$StubIndexInitialization - Initialization done:374 
+2019-03-06 16:56:27,703 [  56586]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-03-06 16:56:27,904 [  56787]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-03-06 16:56:28,659 [  57542]   INFO - j.ide.ui.OptionsTopHitProvider - 545 ms spent on EDT to cache options in application 
+2019-03-06 16:56:29,281 [  58164]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 3046 ms 
+2019-03-06 16:56:29,985 [  58868]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 11 ms 
+2019-03-06 16:56:30,025 [  58908]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ProjectRootManagerComponent initialized in 21 ms 
+2019-03-06 16:56:30,055 [  58938]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 53 ms 
+2019-03-06 16:56:30,071 [  58954]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 15 ms 
+2019-03-06 16:56:30,108 [  58991]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 17 ms 
+2019-03-06 16:56:30,132 [  59015]   INFO - ij.components.ComponentManager - com.intellij.profile.codeInspection.ProjectInspectionProfileManager initialized in 24 ms 
+2019-03-06 16:56:30,139 [  59022]   INFO - ellij.project.impl.ProjectImpl - 19 project components initialized in 219 ms 
+2019-03-06 16:56:30,153 [  59036]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 871 ms 
+2019-03-06 16:56:30,664 [  59547]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 510 ms 
+2019-03-06 16:56:30,674 [  59557]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 8 ms 
+2019-03-06 16:56:45,866 [  74749]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2019-03-06 16:59:44,308 [ 253191]   INFO - rationStore.ComponentStoreImpl - Saving default projectInspectionProjectProfileManager took 11 ms 
+2019-03-06 16:59:44,493 [ 253376]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.IdeDocumentHistoryImpl initialized in 12 ms 
+2019-03-06 16:59:44,591 [ 253474]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangesViewManager initialized in 80 ms 
+2019-03-06 16:59:44,623 [ 253506]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 115 ms 
+2019-03-06 16:59:44,626 [ 253509]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 120 ms 
+2019-03-06 16:59:44,628 [ 253511]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 123 ms 
+2019-03-06 16:59:44,647 [ 253530]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager initialized in 13 ms 
+2019-03-06 16:59:44,681 [ 253564]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 22 ms 
+2019-03-06 16:59:44,710 [ 253593]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 28 ms 
+2019-03-06 16:59:44,729 [ 253612]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 14 ms 
+2019-03-06 16:59:44,797 [ 253680]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 52 ms 
+2019-03-06 16:59:44,836 [ 253719]   INFO - ij.components.ComponentManager - org.jetbrains.plugins.terminal.TerminalView initialized in 13 ms 
+2019-03-06 16:59:44,904 [ 253787]   INFO - ij.components.ComponentManager - com.intellij.lang.javascript.frameworks.webpack.Webpack4PluginProviderRegistrar initialized in 64 ms 
+2019-03-06 16:59:44,913 [ 253796]   INFO - ellij.project.impl.ProjectImpl - 114 project components initialized in 604 ms 
+2019-03-06 16:59:44,914 [ 253797]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2019-03-06 16:59:44,986 [ 253869]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 13 ms 
+2019-03-06 16:59:45,251 [ 254134]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-03-06 16:59:45,867 [ 254750]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-03-06 16:59:46,172 [ 255055]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x3a0022b 
+2019-03-06 16:59:46,313 [ 255196]   INFO - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2019-03-06 16:59:46,830 [ 255713]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-03-06 16:59:47,259 [ 256142]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.grunt.GruntfileManager 
+2019-03-06 16:59:47,270 [ 256153]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.gulp.GulpfileManager 
+2019-03-06 16:59:47,271 [ 256154]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.npm.PackageJsonFileManager 
+2019-03-06 16:59:47,387 [ 256270]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 391ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 16:59:47,869 [ 256752]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-03-06 16:59:48,569 [ 257452]   WARN - tartup.impl.StartupManagerImpl - /home/cmsstudent/PhpstormProjects/untitled/.idea 
+java.io.FileNotFoundException: /home/cmsstudent/PhpstormProjects/untitled/.idea
+	at com.intellij.openapi.util.io.FileUtil.isFileSystemCaseSensitive(FileUtil.java:1511)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.checkFsSanity(StartupManagerImpl.java:257)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.java:177)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.lambda$null$7(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:435)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:419)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:403)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:723)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:672)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:367)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-06 16:59:48,608 [ 257491]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-03-06 16:59:48,840 [ 257723]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 67 ms 
+2019-03-06 16:59:48,856 [ 257739]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 107ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 16:59:48,872 [ 257755]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /home/cmsstudent/PhpstormProjects/untitled/.idea/untitled.iml 
+2019-03-06 16:59:48,872 [ 257755]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/cmsstudent/PhpstormProjects/untitled 
+2019-03-06 16:59:48,872 [ 257755]   INFO - cript.buildTools.base.JsbtUtil - Detecting by children: [] 
+2019-03-06 16:59:48,872 [ 257755]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.grunt.GruntService 
+2019-03-06 16:59:48,872 [ 257755]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /home/cmsstudent/PhpstormProjects/untitled/.idea/untitled.iml 
+2019-03-06 16:59:48,872 [ 257755]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/cmsstudent/PhpstormProjects/untitled 
+2019-03-06 16:59:48,873 [ 257756]   INFO - cript.buildTools.base.JsbtUtil - Detecting by children: [] 
+2019-03-06 16:59:48,873 [ 257756]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.gulp.GulpService 
+2019-03-06 16:59:48,874 [ 257757]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /home/cmsstudent/PhpstormProjects/untitled/.idea/untitled.iml 
+2019-03-06 16:59:48,874 [ 257757]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/cmsstudent/PhpstormProjects/untitled 
+2019-03-06 16:59:48,874 [ 257757]   INFO - ols.npm.PackageJsonFileManager - Found package.json in /home/cmsstudent/PhpstormProjects/untitled: null 
+2019-03-06 16:59:48,874 [ 257757]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.npm.NpmScriptsService 
+2019-03-06 16:59:48,899 [ 257782]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4664 ms 
+2019-03-06 16:59:49,034 [ 257917]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 17 ms, XDebuggerSettings took 11 ms 
+2019-03-06 16:59:49,200 [ 258083]   INFO - .TypeScriptLibraryProviderImpl - Start refreshing typescript libraries 
+2019-03-06 16:59:49,683 [ 258566]   INFO - .TypeScriptLibraryProviderImpl - End refreshing typescript libraries 
+2019-03-06 16:59:49,904 [ 258787]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/cmsstudent/PhpstormProjects/untitled' untitledPhpRuntimeConfiguration took 12 ms, ProjectCodeStyleConfiguration took 32 ms 
+2019-03-06 16:59:50,421 [ 259304]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 2107 ms 
+2019-03-06 16:59:50,690 [ 259573]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1832ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish, 1/2 very slow 
+2019-03-06 16:59:50,693 [ 259576]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 444 files to update 
+2019-03-06 16:59:55,785 [ 264668]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt sdk-stubs from /home/cmsstudent/.PhpStorm2019.1/system/index/.persistent/prebuilt/JavaScript/sdk-stubs.input 
+2019-03-06 17:00:04,344 [ 273227]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt sdk-stubs from /home/cmsstudent/.PhpStorm2019.1/system/index/.persistent/prebuilt/PHP/sdk-stubs.input 
+2019-03-06 17:00:11,289 [ 280172]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 20596ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:00:11,459 [ 280342]   INFO - j.ide.ui.OptionsTopHitProvider - 164 ms spent to cache options in project 
+2019-03-06 17:00:11,459 [ 280342]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2019-03-06 17:00:11,459 [ 280342]   INFO - tartup.impl.StartupManagerImpl - Activity run in 164ms on UI thread 
+2019-03-06 17:00:11,508 [ 280391]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-03-06 17:00:11,987 [ 280870]   INFO - j.ide.ui.OptionsTopHitProvider - 265 ms spent on EDT to cache options in project 
+2019-03-06 17:00:12,407 [ 281290]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 06.03.19 16:55) 
+2019-03-06 17:00:33,908 [ 302791]   INFO - rationStore.ComponentStoreImpl - Saving appUpdatesConfigurable took 12 ms 
+2019-03-06 17:00:33,959 [ 302842]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 149 ms 
+2019-03-06 17:01:23,062 [ 351945]   WARN - com.intellij.util.xmlb.Binding - no accessors for class java.lang.Object 
+2019-03-06 17:01:23,062 [ 351945]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/cmsstudent/PhpstormProjects/untitled' untitledChangeListManager took 12 ms, DrupalConfiguration took 18 ms, ToolWindowManager took 11 ms, Vcs.Log.Tabs.Properties took 15 ms, VcsManagerConfiguration took 11 ms, XDebuggerManager took 27 ms 
+2019-03-06 17:01:23,639 [ 352522]   INFO - ellij.project.impl.ProjectImpl - 114 project components initialized in 31 ms 
+2019-03-06 17:01:23,640 [ 352523]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2019-03-06 17:01:23,694 [ 352577]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-03-06 17:01:23,762 [ 352645]   WARN - pl.local.NativeFileWatcherImpl - The current <b>inotify</b>(7) watch limit is too low. <a href="https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit">More details.</a> 
+2019-03-06 17:01:23,774 [ 352657]   WARN - api.vfs.impl.local.FileWatcher - The current <b>inotify</b>(7) watch limit is too low. <a href="https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit">More details.</a> 
+2019-03-06 17:01:23,821 [ 352704]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-03-06 17:01:23,884 [ 352767]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.grunt.GruntfileManager 
+2019-03-06 17:01:23,885 [ 352768]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.gulp.GulpfileManager 
+2019-03-06 17:01:23,885 [ 352768]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.npm.PackageJsonFileManager 
+2019-03-06 17:01:23,889 [ 352772]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 18ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:01:24,263 [ 353146]   INFO - tartup.impl.StartupManagerImpl - /var/www/site.ru/public_html/.idea case-sensitivity: expected=true actual=true 
+2019-03-06 17:01:24,278 [ 353161]   WARN - api.vfs.impl.local.FileWatcher - Project files cannot be watched (are they under network mount?) 
+2019-03-06 17:01:24,284 [ 353167]   INFO - tartup.impl.StartupManagerImpl - unwatched roots: [/var/www/site.ru/public_html] 
+2019-03-06 17:01:24,291 [ 353174]   INFO - tartup.impl.StartupManagerImpl - manual watches: [/var/www/site.ru/public_html] 
+2019-03-06 17:01:24,334 [ 353217]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-03-06 17:01:24,561 [ 353444]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-03-06 17:01:24,561 [ 353444]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-03-06 17:01:24,624 [ 353507]   INFO -  #git4idea.commands.GitHandler - git version 2.17.1 
+2019-03-06 17:01:24,646 [ 353529]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.17.1 
+2019-03-06 17:01:24,911 [ 353794]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/var/www/site.ru/public_html] 
+2019-03-06 17:01:25,001 [ 353884]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 1601 ms 
+2019-03-06 17:01:25,024 [ 353907]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /var/www/site.ru/public_html/.idea/public_html.iml 
+2019-03-06 17:01:25,024 [ 353907]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /var/www/site.ru/public_html 
+2019-03-06 17:01:25,024 [ 353907]   INFO - cript.buildTools.base.JsbtUtil - Detecting by children: [file:///var/www/site.ru/public_html/.git, file:///var/www/site.ru/public_html/core, file:///var/www/site.ru/public_html/.idea, file:///var/www/site.ru/public_html/sites, file:///var/www/site.ru/public_html/config, file:///var/www/site.ru/public_html/themes, file:///var/www/site.ru/public_html/vendor, file:///var/www/site.ru/public_html/modules, file:///var/www/site.ru/public_html/profiles, file:///var/www/site.ru/public_html/.htaccess, file:///var/www/site.ru/public_html/README.md, file:///var/www/site.ru/public_html/index.php, file:///var/www/site.ru/public_html/libraries, file:///var/www/site.ru/public_html/.csslintrc, file:///var/www/site.ru/public_html/.gitignore, file:///var/www/site.ru/public_html/robots.txt, file:///var/www/site.ru/public_html/update.php, file:///var/www/site.ru/public_html/web.config, file:///var/www/site.ru/public_html/INSTALL.txt, file:///var/www/site.ru/public_html/LICENSE.txt, file:///var/www/site.ru/public_html/autoload.php, file:///var/www/site.ru/public_html/.editorconfig, file:///var/www/site.ru/public_html/.eslintignore, file:///var/www/site.ru/public_html/composer.json, file:///var/www/site.ru/public_html/composer.lock, file:///var/www/site.ru/public_html/.eslintrc.json, file:///var/www/site.ru/public_html/.gitattributes, file:///var/www/site.ru/public_html/.ht.router.php, file:///var/www/site.ru/public_html/example.gitignore] 
+2019-03-06 17:01:25,024 [ 353907]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.grunt.GruntService 
+2019-03-06 17:01:25,024 [ 353907]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /var/www/site.ru/public_html/.idea/public_html.iml 
+2019-03-06 17:01:25,024 [ 353907]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /var/www/site.ru/public_html 
+2019-03-06 17:01:25,024 [ 353907]   INFO - cript.buildTools.base.JsbtUtil - Detecting by children: [file:///var/www/site.ru/public_html/.git, file:///var/www/site.ru/public_html/core, file:///var/www/site.ru/public_html/.idea, file:///var/www/site.ru/public_html/sites, file:///var/www/site.ru/public_html/config, file:///var/www/site.ru/public_html/themes, file:///var/www/site.ru/public_html/vendor, file:///var/www/site.ru/public_html/modules, file:///var/www/site.ru/public_html/profiles, file:///var/www/site.ru/public_html/.htaccess, file:///var/www/site.ru/public_html/README.md, file:///var/www/site.ru/public_html/index.php, file:///var/www/site.ru/public_html/libraries, file:///var/www/site.ru/public_html/.csslintrc, file:///var/www/site.ru/public_html/.gitignore, file:///var/www/site.ru/public_html/robots.txt, file:///var/www/site.ru/public_html/update.php, file:///var/www/site.ru/public_html/web.config, file:///var/www/site.ru/public_html/INSTALL.txt, file:///var/www/site.ru/public_html/LICENSE.txt, file:///var/www/site.ru/public_html/autoload.php, file:///var/www/site.ru/public_html/.editorconfig, file:///var/www/site.ru/public_html/.eslintignore, file:///var/www/site.ru/public_html/composer.json, file:///var/www/site.ru/public_html/composer.lock, file:///var/www/site.ru/public_html/.eslintrc.json, file:///var/www/site.ru/public_html/.gitattributes, file:///var/www/site.ru/public_html/.ht.router.php, file:///var/www/site.ru/public_html/example.gitignore] 
+2019-03-06 17:01:25,024 [ 353907]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.gulp.GulpService 
+2019-03-06 17:01:25,024 [ 353907]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /var/www/site.ru/public_html/.idea/public_html.iml 
+2019-03-06 17:01:25,024 [ 353907]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /var/www/site.ru/public_html 
+2019-03-06 17:01:25,024 [ 353907]   INFO - ols.npm.PackageJsonFileManager - Found package.json in /var/www/site.ru/public_html: null 
+2019-03-06 17:01:25,027 [ 353910]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.npm.NpmScriptsService 
+2019-03-06 17:01:27,649 [ 356532]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 4160 ms 
+2019-03-06 17:01:34,090 [ 362973]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 2504ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:01:35,684 [ 364567]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1593ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:01:35,699 [ 364582]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 21234 files to update 
+2019-03-06 17:02:14,706 [ 403589]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 06.03.19 16:55) 
+2019-03-06 17:03:03,234 [ 452117]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 06.03.19 16:55) 
+2019-03-06 17:04:07,032 [ 515915]   WARN - com.intellij.util.xmlb.Binding - no accessors for class java.lang.Object 
+2019-03-06 17:04:07,194 [ 516077]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 387 ms 
+2019-03-06 17:04:26,477 [ 535360]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 176 ms 
+2019-03-06 17:05:04,288 [ 573171]   INFO - ellij.vfs.persistent.FSRecords - Contents:16384 of 69940366, reuses:466 of 805742 for 742 
+2019-03-06 17:05:56,376 [ 625259]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 260677ms; general responsiveness: 1/260 sluggish; EDT responsiveness: 7/260 sluggish, 3/260 very slow 
+2019-03-06 17:05:56,378 [ 625261]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 1ms 
+2019-03-06 17:05:56,419 [ 625302]   INFO - j.ide.ui.OptionsTopHitProvider - 30 ms spent to cache options in project 
+2019-03-06 17:05:56,453 [ 625336]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-03-06 17:05:56,582 [ 625465]   INFO - ascript.linter.JSLinterGuesser - ESLint is enabled: 'eslint' is listed in package.json. 
+2019-03-06 17:05:56,662 [ 625545]   INFO - nter.JSLinterCodeStyleImporter - ESLint:Could not find 'eslint' package 
+2019-03-06 17:05:56,662 [ 625545]   INFO - nter.JSLinterCodeStyleImporter - Postponing code style import from ESLint because required tool not installed 
+2019-03-06 17:05:56,993 [ 625876]   INFO - j.ide.ui.OptionsTopHitProvider - 147 ms spent on EDT to cache options in project 
+2019-03-06 17:05:57,533 [ 626416]   WARN - ser.lib.ComposerLibraryManager - Updated composer include paths. Add [file:///var/www/site.ru/public_html/vendor/fabpot/goutte, file:///var/www/site.ru/public_html/vendor/typo3/phar-stream-wrapper, file:///var/www/site.ru/public_html/vendor/doctrine/cache, file:///var/www/site.ru/public_html/vendor/doctrine/reflection, file:///var/www/site.ru/public_html/vendor/doctrine/common, file:///var/www/site.ru/public_html/vendor/doctrine/collections, file:///var/www/site.ru/public_html/vendor/doctrine/instantiator, file:///var/www/site.ru/public_html/vendor/doctrine/event-manager, file:///var/www/site.ru/public_html/vendor/doctrine/inflector, file:///var/www/site.ru/public_html/vendor/phpdocumentor/reflection-docblock, file:///var/www/site.ru/public_html/vendor/jcalderonzumba/mink-phantomjs-driver, file:///var/www/site.ru/public_html/vendor/doctrine/annotations, file:///var/www/site.ru/public_html/vendor/phpdocumentor/type-resolver, file:///var/www/site.ru/public_html/vendor/jcalderonzumba/gastonjs, file:///var/www/site.ru/public_html/vendor/composer, file:///var/www/site.ru/public_html/vendor/doctrine/persistence, file:///var/www/site.ru/public_html/vendor/phpdocumentor/reflection-common, file:///var/www/site.ru/public_html/vendor/easyrdf/easyrdf, file:///var/www/site.ru/public_html/vendor/doctrine/lexer, file:///var/www/site.ru/public_html/vendor/drupal/coder, file:///var/www/site.ru/public_html/vendor/asm89/stack-cors, file:///var/www/site.ru/public_html/vendor/behat/mink-browserkit-driver, file:///var/www/site.ru/public_html/vendor/behat/mink-goutte-driver, file:///var/www/site.ru/public_html/vendor/behat/mink-selenium2-driver, file:///var/www/site.ru/public_html/vendor/behat/mink, file:///var/www/site.ru/public_html/vendor/paragonie/random_compat, file:///var/www/site.ru/public_html/vendor/phpunit/php-timer, file:///var/www/site.ru/public_html/vendor/phpunit/php-file-iterator, file:///var/www/site.ru/public_html/vendor/phpunit/php-text-template, file:///var/www/site.ru/public_html/vendor/twig/twig, file:///var/www/site.ru/public_html/vendor/phpunit/phpunit-mock-objects, file:///var/www/site.ru/public_html/vendor/phpunit/php-token-stream, file:///var/www/site.ru/public_html/vendor/phpunit/php-code-coverage, file:///var/www/site.ru/public_html/vendor/masterminds/html5, file:///var/www/site.ru/public_html/vendor/ralouphie/getallheaders, file:///var/www/site.ru/public_html/vendor/symfony/console, file:///var/www/site.ru/public_html/vendor/symfony/process, file:///var/www/site.ru/public_html/vendor/symfony/debug, file:///var/www/site.ru/public_html/vendor/symfony/dependency-injection, file:///var/www/site.ru/public_html/vendor/symfony/polyfill-iconv, file:///var/www/site.ru/public_html/vendor/symfony/validator, file:///var/www/site.ru/public_html/vendor/symfony/var-dumper, file:///var/www/site.ru/public_html/vendor/symfony/serializer, file:///var/www/site.ru/public_html/vendor/symfony/browser-kit, file:///var/www/site.ru/public_html/vendor/symfony/http-kernel, file:///var/www/site.ru/public_html/vendor/sebastian/global-state, file:///var/www/site.ru/public_html/vendor/symfony/dom-crawler, file:///var/www/site.ru/public_html/vendor/sebastian/comparator, file:///var/www/site.ru/public_html/vendor/symfony/polyfill-php70, file:///var/www/site.ru/public_html/vendor/sebastian/exporter, file:///var/www/site.ru/public_html/vendor/symfony/routing, file:///var/www/site.ru/public_html/vendor/sebastian/environment, file:///var/www/site.ru/public_html/vendor/symfony/event-dispatcher, file:///var/www/site.ru/public_html/vendor/sebastian/recursion-context, file:///var/www/site.ru/public_html/vendor/symfony/css-selector, file:///var/www/site.ru/public_html/vendor/sebastian/object-reflector, file:///var/www/site.ru/public_html/vendor/symfony/polyfill-ctype, file:///var/www/site.ru/public_html/vendor/sebastian/object-enumerator, file:///var/www/site.ru/public_html/vendor/symfony/translation, file:///var/www/site.ru/public_html/vendor/sebastian/resource-operations, file:///var/www/site.ru/public_html/vendor/symfony/polyfill-mbstring, file:///var/www/site.ru/public_html/vendor/sebastian/code-unit-reverse-lookup, file:///var/www/site.ru/public_html/vendor/symfony/class-loader, file:///var/www/site.ru/public_html/vendor/sebastian/diff, file:///var/www/site.ru/public_html/vendor/symfony/http-foundation, file:///var/www/site.ru/public_html/vendor/sebastian/version, file:///var/www/site.ru/public_html/vendor/symfony/psr-http-message-bridge, file:///var/www/site.ru/public_html/vendor/symfony/yaml, file:///var/www/site.ru/public_html/vendor/phar-io/manifest, file:///var/www/site.ru/public_html/vendor/phar-io/version, file:///var/www/site.ru/public_html/vendor/myclabs/deep-copy, file:///var/www/site.ru/public_html/vendor/squizlabs/php_codesniffer, file:///var/www/site.ru/public_html/vendor/phpunit/phpunit, file:///var/www/site.ru/public_html/vendor/symfony-cmf/routing, file:///var/www/site.ru/public_html/vendor/instaclick/php-webdriver, file:///var/www/site.ru/public_html/vendor/symfony/phpunit-bridge, file:///var/www/site.ru/public_html/vendor/psr/container, file:///var/www/site.ru/public_html/vendor/psr/http-message, file:///var/www/site.ru/public_html/vendor/psr/log, file:///var/www/site.ru/public_html/vendor/egulias/email-validator, file:///var/www/site.ru/public_html/vendor/webmozart/assert, file:///var/www/site.ru/public_html/vendor/zendframework/zend-escaper, file:///var/www/site.ru/public_html/vendor/zendframework/zend-stdlib, file:///var/www/site.ru/public_html/vendor/zendframework/zend-feed, file:///var/www/site.ru/public_html/vendor/wikimedia/composer-merge-plugin, file:///var/www/site.ru/public_html/vendor/zendframework/zend-diactoros, file:///var/www/site.ru/public_html/vendor/theseer/tokenizer, file:///var/www/site.ru/public_html/vendor/stack/builder, file:///var/www/site.ru/public_html/vendor/phpspec/prophecy, file:///var/www/site.ru/public_html/vendor/guzzlehttp/guzzle, file:///var/www/site.ru/public_html/vendor/guzzlehttp/psr7, file:///var/www/site.ru/public_html/vendor/guzzlehttp/promises, file:///var/www/site.ru/public_html/vendor/mikey179/vfsStream],
+remove [],
+deleted files [] 
+2019-03-06 17:05:57,560 [ 626443]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:05:57,612 [ 626495]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:05:57,615 [ 626498]   INFO - omposerSettingSyncConfigClient - Composer synchronization is enabled -> update IDE settings based on composer.json 
+2019-03-06 17:05:57,749 [ 626632]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:05:57,903 [ 626786]   INFO - omposerSettingSyncConfigClient - Composer synchronization is enabled -> update IDE settings based on composer.json 
+2019-03-06 17:05:58,624 [ 627507]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 598ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:05:58,798 [ 627681]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 174ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:05:58,798 [ 627681]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 6 files to update 
+2019-03-06 17:05:58,957 [ 627840]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 159ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:05:58,965 [ 627848]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:05:59,817 [ 628700]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 823ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:05:59,849 [ 628732]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 29ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:05:59,859 [ 628742]   WARN - ns.php.phar.PharLibraryManager - Frequent root change. Source class com.jetbrains.php.phar.PharLibraryManager, delta 3126.
+Old roots: [phar:///var/www/site.ru/public_html/core/modules/simpletest/files/phar-1.phar/, phar:///var/www/site.ru/public_html/vendor/phar-io/manifest/tests/_fixture/test.phar/, phar:///var/www/site.ru/public_html/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/deprecation.phar/]
+New Roots: [phar:///var/www/site.ru/public_html/core/modules/simpletest/files/phar-1.phar/] 
+2019-03-06 17:05:59,972 [ 628855]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:06:00,832 [ 629715]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 797ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:06:00,871 [ 629754]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 38ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:06:00,879 [ 629762]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:06:01,376 [ 630259]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 472ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:06:01,393 [ 630276]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 16ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:06:01,466 [ 630349]   WARN - ns.php.phar.PharLibraryManager - Frequent root change. Source class com.jetbrains.php.phar.PharLibraryManager, delta 1606.
+Old roots: [phar:///var/www/site.ru/public_html/core/modules/simpletest/files/phar-1.phar/]
+New Roots: [phar:///var/www/site.ru/public_html/core/modules/simpletest/files/phar-1.phar/, phar:///var/www/site.ru/public_html/vendor/phar-io/manifest/tests/_fixture/test.phar/, phar:///var/www/site.ru/public_html/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/deprecation.phar/] 
+2019-03-06 17:06:01,495 [ 630378]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:06:02,674 [ 631557]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1062ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:06:02,746 [ 631629]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 67ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:06:08,828 [ 637711]   INFO - rationStore.ComponentStoreImpl - Saving appPhpCodeFoldingSettings took 15 ms 
+2019-03-06 17:06:08,908 [ 637791]   INFO - rationStore.ComponentStoreImpl - Saving Module: 'public_html'NewModuleRootManager took 76 ms 
+2019-03-06 17:06:09,270 [ 638153]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlProjectCodeStyleConfiguration took 12 ms 
+2019-03-06 17:06:09,459 [ 638342]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 881 ms 
+2019-03-06 17:09:58,166 [ 867049]   WARN - com.intellij.util.xmlb.Binding - no accessors for class java.lang.Object 
+2019-03-06 17:09:58,166 [ 867049]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlProjectView took 15 ms 
+2019-03-06 17:09:58,259 [ 867142]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 274 ms 
+2019-03-06 17:11:52,752 [ 981635]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 153 ms 
+2019-03-06 17:13:06,330 [1055213]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 160 ms 
+2019-03-06 17:13:07,946 [1056829]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 129 
+2019-03-06 17:13:07,946 [1056829]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/PhpStorm-191.5849.26/bin/fsnotifier64 
+2019-03-06 17:13:07,954 [1056837]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-03-06 17:13:07,954 [1056837]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-03-06 17:13:07,954 [1056837]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-03-06 17:13:07,955 [1056838]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-03-06 17:13:07,955 [1056838]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-03-06 17:13:07,998 [1056881]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.IncompatibleClassChangeError
+	at com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+	at com.sun.glass.ui.gtk.GtkApplication.lambda$null$5(GtkApplication.java:139)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-06 17:13:08,000 [1056883]  ERROR - llij.ide.plugins.PluginManager - PhpStorm 2019.1 EAP  Build #PS-191.5849.26 
+2019-03-06 17:13:08,000 [1056883]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_202-release; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2019-03-06 17:13:08,000 [1056883]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+2019-03-06 17:13:08,098 [1056981]  ERROR - llij.ide.plugins.PluginManager - Last Action: ToggleLineBreakpoint 
+2019-03-06 17:13:08,165 [1057048]   WARN - pl.local.NativeFileWatcherImpl - The current <b>inotify</b>(7) watch limit is too low. <a href="https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit">More details.</a> 
+2019-03-06 17:13:08,166 [1057049]   WARN - api.vfs.impl.local.FileWatcher - The current <b>inotify</b>(7) watch limit is too low. <a href="https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit">More details.</a> 
+2019-03-06 17:13:08,306 [1057189]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-03-06 17:13:08,306 [1057189]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-03-06 17:13:08,306 [1057189]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-03-06 17:13:08,314 [1057197]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-03-06 17:13:08,315 [1057198]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-03-06 17:13:08,315 [1057198]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-03-06 17:13:08,332 [1057215]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-03-06 17:13:23,767 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-03-06 17:13:23,935 [    168]   INFO -        #com.intellij.idea.Main - IDE: PhpStorm (build #PS-191.5849.26, 27 Feb 2019 18:15) 
+2019-03-06 17:13:23,935 [    168]   INFO -        #com.intellij.idea.Main - OS: Linux (4.15.0-45-generic, amd64) 
+2019-03-06 17:13:23,935 [    168]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b31 (JetBrains s.r.o) 
+2019-03-06 17:13:23,935 [    168]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b31 (OpenJDK 64-Bit Server VM) 
+2019-03-06 17:13:23,974 [    207]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -XX:MaxJavaStackTraceDepth=10000 -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/cmsstudent/java_error_in_PHPSTORM_%p.log -XX:HeapDumpPath=/home/cmsstudent/java_error_in_PHPSTORM.hprof -Didea.paths.selector=PhpStorm2019.1 -Djb.vmOptionsFile=/opt/PhpStorm-191.5849.26/bin/phpstorm64.vmoptions -Didea.platform.prefix=PhpStorm -Didea.jre.check=true 
+2019-03-06 17:13:23,974 [    207]   INFO -        #com.intellij.idea.Main - ext: /opt/PhpStorm-191.5849.26/jre64/lib/ext: [meta-index, cldrdata.jar, sunec.jar, sunpkcs11.jar, jaccess.jar, sunjce_provider.jar, zipfs.jar, localedata.jar, nashorn.jar, dnsns.jar, jfxrt.jar] 
+2019-03-06 17:13:23,974 [    207]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-03-06 17:13:24,028 [    261]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 54 ms 
+2019-03-06 17:13:24,843 [   1076]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-03-06 17:13:24,843 [   1076]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-03-06 17:13:26,336 [   2569]   INFO - .intellij.idea.IdeaApplication - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@12d6d9e8[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@69e3049b 
+2019-03-06 17:13:26,521 [   2754]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-03-06 17:13:27,522 [   3755]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor java-specific.xml 
+2019-03-06 17:13:27,523 [   3756]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor javaee-specific.xml 
+2019-03-06 17:13:27,643 [   3876]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2019-03-06 17:13:27,643 [   3876]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2019-03-06 17:13:27,822 [   4055]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2019-03-06 17:13:28,127 [   4360]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 870 ms 
+2019-03-06 17:13:28,222 [   4455]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-03-06 17:13:28,382 [   4615]   INFO - llij.ide.plugins.PluginManager - 69 plugins initialized in 1125 ms 
+2019-03-06 17:13:28,382 [   4615]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (191.5849.26), AngularJS (191.5849.26), Apache config (.htaccess) support (191.5849.26), Behat Support (191.5849.26), Blade Support (191.5849.26), CSS Support (191.5849.26), Codeception Framework (191.5849.26), CoffeeScript (191.5849.26), Command Line Tool Support (191.5849.26), Copyright (191.5849.26), DQL Support (191.5849.26), Database Tools and SQL (191.5849.26), Docker integration (191.5849.26), Drupal Support (191.5849.26), File Watchers (191.5849.26), GNU GetText files support (*.po) (191.5849.26), Gherkin (191.5849.26), Git Integration (191.5849.26), GitHub (191.5849.26), HTML Tools (191.5849.26), HTTP Client (191.5849.26), Haml (191.5849.26), IDE Settings Sync (191.5849.26), IDEA CORE (191.5849.26), Ini4Idea (191.5849.26), IntelliLang (191.5849.26), JavaScript Debugger (191.5849.26), JavaScript Intention Power Pack (191.5849.26), JavaScript Support (191.5849.26), Joomla! Support (191.5849.26), Less support (191.5849.26), Markdown support (191.5849.26), Mercurial Integration (191.5849.26), NodeJS (191.5849.26), PHP (191.5849.26), PHP Docker (191.5849.26), PHP Remote Interpreter (191.5849.26), PHPSpec BDD Framework (191.5849.26), Perforce Integration (191.5849.26), Performance Testing (191.5849.26), Phing Support (191.5849.26), PhpStorm Workshop (191.5849.26), ReStructuredText Support (191.5849.26), Refactor-X (191.5849.26), Remote Hosts Access (191.5849.26), SSH Remote Run (191.5849.26), Sass support (191.5849.26), Settings Repository (191.5849.26), Subversion (191.5849.26), Task Management (191.5849.26), Terminal (191.5849.26), TextMate bundles support (191.5849.26), Time Tracking (191.5849.26), Twig Support (191.5849.26), UML Support (191.5849.26), Vagrant (191.5849.26), Vue.js (191.5849.26), W3C Validators (191.5849.26), WordPress Support (191.5849.26), XPathView + XSLT Support (191.5849.26), XSLT-Debugger (191.5849.26), YAML (191.5849.26), hunspell (191.5849.26), tslint (191.5849.26) 
+2019-03-06 17:13:28,382 [   4615]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: .env files support (0.7), EditorConfig (191.5849.24), Handlebars/Mustache (191.5849.16), Ideolog (191.0.7.0) 
+2019-03-06 17:13:28,383 [   4616]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: IntelliJ Configuration Script (191.5849.26) 
+2019-03-06 17:13:29,819 [   6052]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 442 ms 
+2019-03-06 17:13:29,976 [   6209]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-03-06 17:13:30,234 [   6467]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryState initialized in 73 ms 
+2019-03-06 17:13:30,342 [   6575]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=713 
+2019-03-06 17:13:30,393 [   6626]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.newvfs.persistent.PersistentFSImpl initialized in 155 ms 
+2019-03-06 17:13:30,440 [   6673]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.impl.local.LocalFileSystemImpl initialized in 201 ms 
+2019-03-06 17:13:30,466 [   6699]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/PhpStorm-191.5849.26/bin/fsnotifier64 
+2019-03-06 17:13:30,506 [   6739]   INFO - ij.components.ComponentManager - com.intellij.database.dataSource.srcStorage.DbSrcFileSystem initialized in 58 ms 
+2019-03-06 17:13:30,530 [   6763]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-03-06 17:13:30,536 [   6769]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.PlatformVirtualFileManager initialized in 300 ms 
+2019-03-06 17:13:30,539 [   6772]   INFO - ij.components.ComponentManager - com.intellij.configurationStore.StoreAwareProjectManager initialized in 304 ms 
+2019-03-06 17:13:31,879 [   8112]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl initialized in 1340 ms 
+2019-03-06 17:13:31,901 [   8134]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.FileDocumentManagerImpl initialized in 21 ms 
+2019-03-06 17:13:31,932 [   8165]   INFO - ij.components.ComponentManager - com.intellij.openapi.keymap.impl.KeymapManagerImpl initialized in 27 ms 
+2019-03-06 17:13:32,010 [   8243]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.persistence.UsageStatisticsPersistenceComponent initialized in 21 ms 
+2019-03-06 17:13:33,000 [   9233]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.impl.ActionManagerImpl initialized in 1095 ms 
+2019-03-06 17:13:33,048 [   9281]   INFO - ij.components.ComponentManager - com.intellij.openapi.editor.impl.EditorFactoryImpl initialized in 1146 ms 
+2019-03-06 17:13:33,069 [   9302]   INFO - ij.components.ComponentManager - com.intellij.history.integration.LocalHistoryImpl initialized in 21 ms 
+2019-03-06 17:13:33,095 [   9328]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 26 ms 
+2019-03-06 17:13:33,120 [   9353]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.DocumentReferenceManagerImpl initialized in 24 ms 
+2019-03-06 17:13:33,827 [  10060]   INFO - ij.components.ComponentManager - com.intellij.ide.ui.laf.LafManagerImpl initialized in 706 ms 
+2019-03-06 17:13:33,843 [  10076]   INFO - ij.components.ComponentManager - com.intellij.diagnostic.PerformanceWatcher initialized in 15 ms 
+2019-03-06 17:13:33,896 [  10129]   INFO - ij.components.ComponentManager - com.intellij.openapi.application.Preloader initialized in 53 ms 
+2019-03-06 17:13:33,979 [  10212]   INFO - ij.components.ComponentManager - com.intellij.util.net.HttpConfigurable initialized in 67 ms 
+2019-03-06 17:13:34,763 [  10996]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-03-06 17:13:34,764 [  10997]   INFO - ij.components.ComponentManager - com.intellij.util.net.ssl.CertificateManager initialized in 784 ms 
+2019-03-06 17:13:34,790 [  11023]   INFO - ij.components.ComponentManager - com.intellij.diagnostic.DebugLogManager initialized in 24 ms 
+2019-03-06 17:13:34,820 [  11053]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-03-06 17:13:34,890 [  11123]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-03-06 17:13:34,921 [  11154]   INFO - ij.components.ComponentManager - com.intellij.openapi.util.registry.RegistryExtensionCollector initialized in 120 ms 
+2019-03-06 17:13:35,070 [  11303]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-03-06 17:13:35,072 [  11305]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.WindowManagerImpl initialized in 140 ms 
+2019-03-06 17:13:35,108 [  11341]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.FocusManagerImpl initialized in 186 ms 
+2019-03-06 17:13:35,174 [  11407]   INFO - ij.components.ComponentManager - com.intellij.ide.IdeTooltipManager initialized in 65 ms 
+2019-03-06 17:13:35,215 [  11448]   INFO - gs.impl.UpdateCheckerComponent - channel: eap 
+2019-03-06 17:13:35,372 [  11605]   INFO - ij.components.ComponentManager - com.intellij.openapi.updateSettings.impl.UpdateCheckerComponent initialized in 184 ms 
+2019-03-06 17:13:35,386 [  11619]   INFO - ij.components.ComponentManager - com.intellij.ide.actionMacro.ActionMacroManager initialized in 14 ms 
+2019-03-06 17:13:35,473 [  11706]   INFO - ij.components.ComponentManager - com.intellij.openapi.actionSystem.ex.QuickListsManager initialized in 87 ms 
+2019-03-06 17:13:36,097 [  12330]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:599, number of extensions:55 
+2019-03-06 17:13:36,137 [  12370]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:39 
+2019-03-06 17:13:36,137 [  12370]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexImpl initialized in 653 ms 
+2019-03-06 17:13:36,168 [  12401]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.SerializationManagerImpl initialized in 30 ms 
+2019-03-06 17:13:36,441 [  12674]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:281, number of extensions:89 
+2019-03-06 17:13:36,455 [  12688]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:13 
+2019-03-06 17:13:36,455 [  12688]   INFO - ij.components.ComponentManager - com.intellij.psi.stubs.StubIndexImpl initialized in 315 ms 
+2019-03-06 17:13:36,466 [  12699]   INFO - ij.components.ComponentManager - com.intellij.tools.ToolManager initialized in 11 ms 
+2019-03-06 17:13:36,517 [  12750]   INFO - ij.components.ComponentManager - com.intellij.execution.ExecutorRegistryImpl initialized in 46 ms 
+2019-03-06 17:13:36,540 [  12773]   INFO - ij.components.ComponentManager - com.intellij.ide.b.f initialized in 22 ms 
+2019-03-06 17:13:36,606 [  12839]   INFO - ij.components.ComponentManager - com.intellij.internal.statistic.updater.StatisticsJobsScheduler initialized in 64 ms 
+2019-03-06 17:13:36,726 [  12959]   INFO - ij.components.ComponentManager - org.intellij.plugins.xpathView.XPathAppComponent initialized in 119 ms 
+2019-03-06 17:13:36,829 [  13062]   INFO - ij.components.ComponentManager - org.intellij.lang.xpath.xslt.impl.XsltConfigImpl initialized in 103 ms 
+2019-03-06 17:13:37,002 [  13235]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt id-index from /home/cmsstudent/.PhpStorm2019.1/system/index/.persistent/prebuilt/PHP/id-index.input 
+2019-03-06 17:13:37,270 [  13503]   INFO - ij.components.ComponentManager - com.intellij.ideolog.intentions.LogIntentionLoaderComponent initialized in 440 ms 
+2019-03-06 17:13:37,329 [  13562]   INFO - ij.components.ComponentManager - com.jetbrains.plugins.remotesdk.tools.RemoteToolManager initialized in 58 ms 
+2019-03-06 17:13:37,442 [  13675]   INFO - ij.components.ComponentManager - org.jetbrains.plugins.textmate.TextMateApplicationComponent initialized in 112 ms 
+2019-03-06 17:13:38,585 [  14818]   INFO - plication.impl.ApplicationImpl - 75 application components initialized in 11333ms 
+2019-03-06 17:13:38,712 [  14945]   INFO - .intellij.idea.IdeaApplication - App initialization took 17625 ms 
+2019-03-06 17:13:39,280 [  15513]   INFO - j.ide.ui.OptionsTopHitProvider - 5355 ms spent to cache options in application 
+2019-03-06 17:13:39,280 [  15513]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 5355 ms 
+2019-03-06 17:13:39,963 [  16196]   INFO - pl$FileIndexDataInitialization - Initialization done:3825 
+2019-03-06 17:13:40,028 [  16261]   INFO - exImpl$StubIndexInitialization - Initialization done:65 
+2019-03-06 17:13:40,576 [  16809]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-03-06 17:13:42,104 [  18337]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-03-06 17:13:42,141 [  18374]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x240004a 
+2019-03-06 17:13:44,964 [  21197]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 15 ms 
+2019-03-06 17:13:45,010 [  21243]   INFO - ij.components.ComponentManager - com.intellij.openapi.command.impl.UndoManagerImpl initialized in 42 ms 
+2019-03-06 17:13:45,041 [  21274]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.FileStatusManagerImpl initialized in 30 ms 
+2019-03-06 17:13:45,083 [  21316]   INFO - ij.components.ComponentManager - com.intellij.openapi.vfs.encoding.EncodingProjectManagerImpl initialized in 41 ms 
+2019-03-06 17:13:45,191 [  21424]   INFO - ij.components.ComponentManager - com.intellij.openapi.wm.impl.ToolWindowManagerImpl initialized in 107 ms 
+2019-03-06 17:13:45,273 [  21506]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ProjectRootManagerComponent initialized in 26 ms 
+2019-03-06 17:13:45,341 [  21574]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiManagerImpl initialized in 100 ms 
+2019-03-06 17:13:45,472 [  21705]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.PsiAwareFileEditorManagerImpl initialized in 279 ms 
+2019-03-06 17:13:45,487 [  21720]   INFO - ij.components.ComponentManager - com.intellij.openapi.fileEditor.impl.IdeDocumentHistoryImpl initialized in 294 ms 
+2019-03-06 17:13:45,685 [  21918]   INFO - ij.components.ComponentManager - com.intellij.openapi.module.impl.ModuleManagerComponent initialized in 196 ms 
+2019-03-06 17:13:45,854 [  22087]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 367 ms 
+2019-03-06 17:13:45,925 [  22158]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-03-06 17:13:45,926 [  22159]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/var/www/site.ru/public_html] 
+2019-03-06 17:13:45,927 [  22160]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsDirectoryMappingStorage initialized in 71 ms 
+2019-03-06 17:13:46,702 [  22935]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangesViewManager initialized in 743 ms 
+2019-03-06 17:13:46,934 [  23167]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.ChangeListManagerImpl initialized in 999 ms 
+2019-03-06 17:13:46,942 [  23175]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.VcsFileStatusProvider initialized in 1014 ms 
+2019-03-06 17:13:46,978 [  23211]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.LineStatusTrackerManager initialized in 1051 ms 
+2019-03-06 17:13:47,112 [  23345]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.shelf.ShelvedChangesViewManager initialized in 127 ms 
+2019-03-06 17:13:47,137 [  23370]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.changes.committed.CommittedChangesCache initialized in 25 ms 
+2019-03-06 17:13:47,156 [  23389]   INFO - ij.components.ComponentManager - com.intellij.psi.impl.PsiDocumentManagerImpl initialized in 14 ms 
+2019-03-06 17:13:47,251 [  23484]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonCodeAnalyzerImpl initialized in 84 ms 
+2019-03-06 17:13:47,312 [  23545]   INFO - ij.components.ComponentManager - com.intellij.profile.codeInspection.ProjectInspectionProfileManager initialized in 39 ms 
+2019-03-06 17:13:47,469 [  23702]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-03-06 17:13:47,801 [  24034]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.DaemonListeners initialized in 549 ms 
+2019-03-06 17:13:48,056 [  24289]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.GeneralHighlightingPassFactory initialized in 255 ms 
+2019-03-06 17:13:48,091 [  24324]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.daemon.impl.WholeFileLocalInspectionsPassFactory initialized in 26 ms 
+2019-03-06 17:13:48,119 [  24352]   INFO - ij.components.ComponentManager - com.intellij.util.indexing.FileBasedIndexProjectHandler initialized in 27 ms 
+2019-03-06 17:13:48,267 [  24500]   INFO - ij.components.ComponentManager - com.intellij.codeInsight.navigation.CtrlMouseHandler initialized in 148 ms 
+2019-03-06 17:13:48,342 [  24575]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl initialized in 74 ms 
+2019-03-06 17:13:48,381 [  24614]   INFO - ij.components.ComponentManager - com.intellij.facet.impl.ui.FacetDependentToolWindowManager initialized in 34 ms 
+2019-03-06 17:13:48,412 [  24645]   INFO - ij.components.ComponentManager - com.intellij.ide.favoritesTreeView.FavoritesManager initialized in 30 ms 
+2019-03-06 17:13:48,967 [  25200]   INFO - ij.components.ComponentManager - com.intellij.xdebugger.impl.XDebuggerManagerImpl initialized in 555 ms 
+2019-03-06 17:13:48,995 [  25228]   INFO - ij.components.ComponentManager - com.intellij.dvcs.repo.VcsRepositoryManager initialized in 27 ms 
+2019-03-06 17:13:49,026 [  25259]   INFO - ij.components.ComponentManager - com.intellij.javaee.PsiExternalResourceNotifier initialized in 27 ms 
+2019-03-06 17:13:49,061 [  25294]   INFO - ij.components.ComponentManager - com.intellij.coverage.CoverageDataManagerImpl initialized in 30 ms 
+2019-03-06 17:13:49,082 [  25315]   INFO - ij.components.ComponentManager - org.jetbrains.idea.perforce.application.PerforceNumberNameSynchronizer initialized in 20 ms 
+2019-03-06 17:13:49,661 [  25894]   INFO - ij.components.ComponentManager - com.intellij.tasks.impl.TaskManagerImpl initialized in 578 ms 
+2019-03-06 17:13:49,733 [  25966]   INFO - ij.components.ComponentManager - org.jetbrains.plugins.terminal.TerminalView initialized in 68 ms 
+2019-03-06 17:13:49,773 [  26006]   INFO - ij.components.ComponentManager - com.intellij.lang.javascript.index.JavaScriptIndex initialized in 40 ms 
+2019-03-06 17:13:49,865 [  26098]   INFO - ij.components.ComponentManager - com.intellij.lang.javascript.frameworks.webpack.Webpack4PluginProviderRegistrar initialized in 89 ms 
+2019-03-06 17:13:49,907 [  26140]   INFO - ij.components.ComponentManager - com.jetbrains.php.config.library.PhpIncludePathManager initialized in 39 ms 
+2019-03-06 17:13:49,921 [  26154]   INFO - ij.components.ComponentManager - com.jetbrains.php.composer.lib.ComposerLibraryManager initialized in 12 ms 
+2019-03-06 17:13:49,923 [  26156]   INFO - ellij.project.impl.ProjectImpl - 114 project components initialized in 6952 ms 
+2019-03-06 17:13:50,510 [  26743]   INFO - ij.components.ComponentManager - com.intellij.openapi.roots.impl.ModuleRootManagerComponent initialized in 366 ms 
+2019-03-06 17:13:50,541 [  26774]   INFO - ij.components.ComponentManager - com.intellij.facet.FacetManagerImpl initialized in 30 ms 
+2019-03-06 17:13:50,593 [  26826]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 669 ms 
+2019-03-06 17:13:50,843 [  27076]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-03-06 17:13:52,408 [  28641]   INFO - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2019-03-06 17:13:53,378 [  29611]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 14087 ms 
+2019-03-06 17:13:54,597 [  30830]   WARN - pl.local.NativeFileWatcherImpl - The current <b>inotify</b>(7) watch limit is too low. <a href="https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit">More details.</a> 
+2019-03-06 17:13:54,599 [  30832]   WARN - api.vfs.impl.local.FileWatcher - The current <b>inotify</b>(7) watch limit is too low. <a href="https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit">More details.</a> 
+2019-03-06 17:13:54,631 [  30864]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-03-06 17:13:55,176 [  31409]   INFO - ij.components.ComponentManager - com.intellij.openapi.components.impl.ServiceManagerImpl initialized in 35 ms 
+2019-03-06 17:13:55,201 [  31434]   INFO - ij.components.ComponentManager - com.intellij.openapi.vcs.impl.ProjectLevelVcsManagerImpl initialized in 19 ms 
+2019-03-06 17:13:55,278 [  31511]   INFO - ij.components.ComponentManager - com.intellij.profile.codeInspection.ProjectInspectionProfileManager initialized in 66 ms 
+2019-03-06 17:13:55,287 [  31520]   INFO - ellij.project.impl.ProjectImpl - 19 project components initialized in 147 ms 
+2019-03-06 17:13:55,298 [  31531]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 1919 ms 
+2019-03-06 17:13:56,447 [  32680]   INFO - tartup.impl.StartupManagerImpl - EditorHistoryManagerStartUpActivity run in 365ms under project opening modal progress 
+2019-03-06 17:13:57,259 [  33492]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 446 ms 
+2019-03-06 17:13:58,189 [  34422]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 2891 ms 
+2019-03-06 17:13:58,274 [  34507]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 82 ms 
+2019-03-06 17:14:00,704 [  36937]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 4236ms under project opening modal progress 
+2019-03-06 17:14:01,274 [  37507]   INFO - tartup.impl.StartupManagerImpl - BehatConfigurationStartupActivity run in 221ms under project opening modal progress 
+2019-03-06 17:14:01,276 [  37509]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 5628ms; general responsiveness: ok; EDT responsiveness: 0/5 sluggish, 3/5 very slow 
+2019-03-06 17:14:03,920 [  40153]   INFO - j.ide.ui.OptionsTopHitProvider - 1097 ms spent on EDT to cache options in application 
+2019-03-06 17:14:05,990 [  42223]   INFO - tartup.impl.StartupManagerImpl - /var/www/site.ru/public_html/.idea case-sensitivity: expected=true actual=true 
+2019-03-06 17:14:06,015 [  42248]   WARN - api.vfs.impl.local.FileWatcher - Project files cannot be watched (are they under network mount?) 
+2019-03-06 17:14:06,018 [  42251]   INFO - tartup.impl.StartupManagerImpl - unwatched roots: [/var/www/site.ru/public_html] 
+2019-03-06 17:14:06,018 [  42251]   INFO - tartup.impl.StartupManagerImpl - manual watches: [/var/www/site.ru/public_html] 
+2019-03-06 17:14:06,109 [  42342]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-03-06 17:14:06,148 [  42381]   INFO -  #git4idea.commands.GitHandler - git version 2.17.1 
+2019-03-06 17:14:06,163 [  42396]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.17.1 
+2019-03-06 17:14:06,186 [  42419]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-03-06 17:14:06,623 [  42856]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/var/www/site.ru/public_html] 
+2019-03-06 17:14:08,427 [  44660]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 25975 ms 
+2019-03-06 17:14:09,670 [  45903]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 13527ms; general responsiveness: ok; EDT responsiveness: 3/13 sluggish, 8/13 very slow 
+2019-03-06 17:14:10,486 [  46719]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 28 ms, InspectionProfileManager took 11 ms, WebServers took 17 ms 
+2019-03-06 17:14:10,859 [  47092]   INFO - rationStore.ComponentStoreImpl - Saving default projectDependencyValidationManager took 11 ms 
+2019-03-06 17:14:11,457 [  47690]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlPHPSpec took 44 ms, PhingConfiguration took 22 ms, PublishConfigData took 13 ms 
+2019-03-06 17:14:11,458 [  47691]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 2042 ms 
+2019-03-06 17:14:13,459 [  49692]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3782ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:14:13,653 [  49886]   INFO - j.ide.ui.OptionsTopHitProvider - 163 ms spent to cache options in project 
+2019-03-06 17:14:13,653 [  49886]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2019-03-06 17:14:13,653 [  49886]   INFO - tartup.impl.StartupManagerImpl - Activity run in 163ms on UI thread 
+2019-03-06 17:14:13,792 [  50025]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 138ms on UI thread 
+2019-03-06 17:14:13,919 [  50152]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-03-06 17:14:15,379 [  51612]   INFO - j.ide.ui.OptionsTopHitProvider - 661 ms spent on EDT to cache options in project 
+2019-03-06 17:14:16,609 [  52842]   INFO - omposerSettingSyncConfigClient - Composer synchronization is enabled -> update IDE settings based on composer.json 
+2019-03-06 17:14:16,773 [  53006]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:14:18,246 [  54479]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1184ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2019-03-06 17:14:18,595 [  54828]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 348ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:14:18,610 [  54843]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:14:19,432 [  55665]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 755ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:14:19,460 [  55693]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 28ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:14:19,593 [  55826]   WARN - ns.php.phar.PharLibraryManager - Frequent root change. Source class com.jetbrains.php.phar.PharLibraryManager, delta 5318.
+Old roots: [phar:///var/www/site.ru/public_html/core/modules/simpletest/files/phar-1.phar/]
+New Roots: [phar:///var/www/site.ru/public_html/core/modules/simpletest/files/phar-1.phar/, phar:///var/www/site.ru/public_html/vendor/phar-io/manifest/tests/_fixture/test.phar/, phar:///var/www/site.ru/public_html/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/deprecation.phar/] 
+2019-03-06 17:14:19,677 [  55910]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:14:21,204 [  57437]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1343ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2019-03-06 17:14:21,261 [  57494]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 54ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:14:50,019 [  86252]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 11 ms 
+2019-03-06 17:14:50,118 [  86351]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlExternalProjectModuleManager took 14 ms, PhpCustomFormatFunctionsConfiguration took 27 ms 
+2019-03-06 17:14:50,118 [  86351]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 228 ms 
+2019-03-06 17:15:07,490 [ 103723]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[22;0;0t
+bytes read                    :ESC[ 
+2019-03-06 17:15:07,491 [ 103724]  ERROR - jediterm.terminal.TerminalMode - Mode InsertMode is not implemented, setting to false 
+2019-03-06 17:15:10,163 [ 106396]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 98 ms 
+2019-03-06 17:15:25,278 [ 121511]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 100 ms 
+2019-03-06 17:15:55,529 [ 151762]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlPhpIncludePathManager took 13 ms, ProjectCodeStyleConfiguration took 19 ms 
+2019-03-06 17:15:55,529 [ 151762]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 131 ms 
+2019-03-06 17:16:01,422 [ 157655]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 100 ms 
+2019-03-06 17:16:29,090 [ 185323]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[23;0;0t
+bytes read                    :ESC[ 
+2019-03-06 17:16:33,708 [ 189941]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[22;0;0t
+bytes read                    :ESC[ 
+2019-03-06 17:16:33,710 [ 189943]  ERROR - jediterm.terminal.TerminalMode - Mode InsertMode is not implemented, setting to false 
+2019-03-06 17:16:36,534 [ 192767]   INFO - rationStore.ComponentStoreImpl - Saving appXDebuggerSettings took 13 ms 
+2019-03-06 17:16:36,575 [ 192808]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 108 ms 
+2019-03-06 17:17:06,672 [ 222905]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[23;0;0t
+bytes read                    :ESC[ 
+2019-03-06 17:17:08,399 [ 224632]   INFO - rationStore.ComponentStoreImpl - Saving appXmlEditorOptions took 15 ms 
+2019-03-06 17:17:08,435 [ 224668]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 138 ms 
+2019-03-06 17:17:17,154 [ 233387]   INFO - rationStore.ComponentStoreImpl - Saving appPhpAutoImport took 13 ms 
+2019-03-06 17:17:17,186 [ 233419]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 89 ms 
+2019-03-06 17:17:58,380 [ 274613]   WARN - com.intellij.util.xmlb.Binding - no accessors for class java.lang.Object 
+2019-03-06 17:17:58,381 [ 274614]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlCommittedChangesCache took 23 ms, PerforceNumberNameSynchronizer took 18 ms 
+2019-03-06 17:17:58,607 [ 274840]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 385 ms 
+2019-03-06 17:18:28,902 [ 305135]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 187 ms 
+2019-03-06 17:18:59,655 [ 335888]   INFO - rationStore.ComponentStoreImpl - Saving appPropertiesComponent took 13 ms 
+2019-03-06 17:18:59,694 [ 335927]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 127 ms 
+2019-03-06 17:20:20,590 [ 416823]   INFO - rationStore.ComponentStoreImpl - Saving appXDebuggerSettings took 11 ms 
+2019-03-06 17:20:20,615 [ 416848]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 79 ms 
+2019-03-06 17:26:06,777 [ 763010]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 06.03.19 17:14) 
+2019-03-06 17:26:50,109 [ 806342]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 113 ms 
+2019-03-06 17:26:52,734 [ 808967]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 181 ms 
+2019-03-06 17:27:00,069 [ 816302]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 110 ms 
+2019-03-06 17:27:44,517 [ 860750]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 68 ms 
+2019-03-06 17:27:53,489 [ 869722]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 73 ms 
+2019-03-06 17:29:31,494 [ 967727]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 58 ms 
+2019-03-06 17:29:42,767 [ 979000]   INFO - rationStore.ComponentStoreImpl - Saving appMessDetector took 42 ms 
+2019-03-06 17:29:42,792 [ 979025]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 141 ms 
+2019-03-06 17:30:11,582 [1007815]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 06.03.19 17:14) 
+2019-03-06 17:30:58,688 [1054921]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 106 ms 
+2019-03-06 17:30:58,882 [1055115]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 66 ms 
+2019-03-06 17:31:02,092 [1058325]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 51 ms 
+2019-03-06 17:31:08,166 [1064399]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 91 ms 
+2019-03-06 17:31:47,119 [1103352]   INFO - il.connection.ServerConnection - Stopped listening on port 9000 
+2019-03-06 17:31:47,122 [1103355]   INFO - il.connection.ServerConnection - Stopped listening on port 20080 
+2019-03-06 17:31:47,123 [1103356]   INFO - il.connection.ServerConnection - Stopped listening on port 10137 
+2019-03-06 17:31:52,995 [1109228]   INFO - rationStore.ComponentStoreImpl - Saving appXDebuggerSettings took 22 ms 
+2019-03-06 17:31:53,009 [1109242]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 72 ms 
+2019-03-06 17:33:25,831 [1202064]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 107 ms 
+2019-03-06 17:33:27,630 [1203863]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:33:28,263 [1204496]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 448ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:33:28,290 [1204523]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 25ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:33:28,490 [1204723]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:33:28,592 [1204825]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 95 ms 
+2019-03-06 17:33:29,391 [1205624]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 667ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:33:29,415 [1205648]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 22ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:33:35,560 [1211793]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 261 ms 
+2019-03-06 17:33:40,865 [1217098]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 52 ms 
+2019-03-06 17:34:01,286 [1237519]   INFO - rationStore.ComponentStoreImpl - Saving appVcs.Log.App.Settings took 29 ms 
+2019-03-06 17:34:01,451 [1237684]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlRunManager took 26 ms 
+2019-03-06 17:34:01,453 [1237686]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 730 ms 
+2019-03-06 17:35:19,851 [1316084]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 06.03.19 17:14) 
+2019-03-06 17:35:29,476 [1325709]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 11 ms, FusApprovedGroupsCacheConfigurable took 13 ms, WindowManager took 11 ms 
+2019-03-06 17:35:29,583 [1325816]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 230 ms 
+2019-03-06 17:35:50,081 [1346314]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index drupal.hook.name 
+java.lang.Throwable
+	at com.jetbrains.php.drupal.hooks.DrupalHooksIndex.reindexIfNeeded(DrupalHooksIndex.java:104)
+	at com.jetbrains.php.drupal.DrupalStartupActivity$1.stateChanged(DrupalStartupActivity.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.EventDispatcher.dispatchVoidMethod(EventDispatcher.java:132)
+	at com.intellij.util.EventDispatcher.access$000(EventDispatcher.java:26)
+	at com.intellij.util.EventDispatcher$1.invoke(EventDispatcher.java:90)
+	at com.sun.proxy.$Proxy134.stateChanged(Unknown Source)
+	at com.jetbrains.php.drupal.settings.DrupalDataService.notifyListeners(DrupalDataService.java:94)
+	at com.jetbrains.php.drupal.settings.DrupalDataService.setState(DrupalDataService.java:40)
+	at com.jetbrains.php.drupal.settings.DrupalConfigurable.apply(DrupalConfigurable.java:74)
+	at com.intellij.openapi.options.newEditor.ConfigurableEditor.apply(ConfigurableEditor.java:316)
+	at com.intellij.openapi.options.newEditor.ConfigurableEditor.apply(ConfigurableEditor.java:136)
+	at com.intellij.openapi.options.newEditor.SettingsDialog.doOKAction(SettingsDialog.java:170)
+	at com.intellij.openapi.ui.DialogWrapper$OkAction.doAction(DialogWrapper.java:1876)
+	at com.intellij.openapi.ui.DialogWrapper$DialogWrapperAction.actionPerformed(DialogWrapper.java:1836)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6550)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3325)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:723)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:668)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:367)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1077)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:695)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:427)
+	at com.intellij.openapi.ui.DialogWrapper.invokeShow(DialogWrapper.java:1683)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1632)
+	at com.intellij.openapi.options.newEditor.SettingsDialog.lambda$show$0(SettingsDialog.java:73)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:88)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransactionAndWait(TransactionGuardImpl.java:153)
+	at com.intellij.openapi.options.newEditor.SettingsDialog.show(SettingsDialog.java:73)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGet(DialogWrapper.java:1647)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.editConfigurable(ShowSettingsUtilImpl.java:236)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.editConfigurable(ShowSettingsUtilImpl.java:197)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.editConfigurable(ShowSettingsUtilImpl.java:186)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.editConfigurable(ShowSettingsUtilImpl.java:176)
+	at com.jetbrains.php.drupal.init.DrupalModuleDetectionManager$1.actionPerformed(DrupalModuleDetectionManager.java:60)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:260)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:277)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAwareWithCallbacks(ActionUtil.java:251)
+	at com.intellij.notification.Notification.fire(Notification.java:229)
+	at com.intellij.notification.EventLog$3.hyperlinkUpdate(EventLog.java:164)
+	at com.intellij.notification.EventLog$NotificationHyperlinkInfo.navigate(EventLog.java:593)
+	at com.intellij.execution.impl.EditorHyperlinkSupport.lambda$getLinkNavigationRunnable$0(EditorHyperlinkSupport.java:123)
+	at com.intellij.execution.impl.EditorHyperlinkSupport$1.mouseClicked(EditorHyperlinkSupport.java:66)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.runMouseClickedCommand(EditorImpl.java:3796)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.mouseReleased(EditorImpl.java:3723)
+	at java.awt.Component.processMouseEvent(Component.java:6550)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3325)
+	at java.awt.Component.processEvent(Component.java:6315)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4899)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4721)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:766)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:739)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:736)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:723)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:668)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:367)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-06 17:35:50,393 [1346626]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 123 ms 
+2019-03-06 17:35:50,612 [1346845]   INFO - il.indexing.FileBasedIndexImpl - scheduleIndexRebuild, reason: checkRebuild 
+2019-03-06 17:35:51,253 [1347486]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 722 ms 
+2019-03-06 17:35:51,580 [1347813]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 645ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:35:53,372 [1349605]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1775ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:35:53,389 [1349622]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 13954 files to update 
+2019-03-06 17:35:54,985 [1351218]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:35:55,016 [1351249]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:35:55,033 [1351266]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:35:55,051 [1351284]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:35:55,088 [1351321]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-03-06 17:35:55,094 [1351327]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update canceled 
+2019-03-06 17:35:55,859 [1352092]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 753ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:35:57,039 [1353272]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1180ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:35:57,045 [1353278]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 13971 files to update 
+2019-03-06 17:36:22,051 [1378284]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt sdk-stubs from /home/cmsstudent/.PhpStorm2019.1/system/index/.persistent/prebuilt/PHP/sdk-stubs.input 
+2019-03-06 17:36:34,282 [1390515]   INFO - rationStore.ComponentStoreImpl - Saving appPhpInterpretersPhpInfoCache took 30 ms, XDebuggerSettings took 20 ms 
+2019-03-06 17:36:34,436 [1390669]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 276 ms 
+2019-03-06 17:37:14,451 [1430684]   INFO - rationStore.ComponentStoreImpl - Saving appHttpConfigurable took 11 ms, PhpInterpreters took 13 ms 
+2019-03-06 17:37:14,520 [1430753]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlRunManager took 12 ms 
+2019-03-06 17:37:14,521 [1430754]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 205 ms 
+2019-03-06 17:37:28,580 [1444813]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 91535ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-03-06 17:37:30,150 [1446383]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = com.intellij.openapi.util.AtomicNotNullLazyValue$1@32d9332 
+2019-03-06 17:37:54,163 [1470396]   INFO -  #git4idea.commands.GitHandler - [public_html] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -- .idea/codeStyles/codeStyleConfig.xml .idea/codeStyles/Project.xml .idea/misc.xml .idea/modules.xml .idea/public_html.iml .idea/vcs.xml 
+2019-03-06 17:38:20,470 [1496703]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 06.03.19 17:14) 
+2019-03-06 17:39:07,751 [1543984]   WARN - com.intellij.util.xmlb.Binding - no accessors for class java.lang.Object 
+2019-03-06 17:39:07,752 [1543985]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlTaskManager took 25 ms, XDebuggerManager took 14 ms 
+2019-03-06 17:39:07,800 [1544033]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 210 ms 
+2019-03-06 17:39:08,065 [1544298]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlProjectCodeStyleConfiguration took 16 ms 
+2019-03-06 17:39:08,066 [1544299]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 86 ms 
+2019-03-06 17:41:21,476 [1677709]   INFO - rationStore.ComponentStoreImpl - Saving appAbbreviationManager took 18 ms 
+2019-03-06 17:41:21,494 [1677727]   INFO - rationStore.ComponentStoreImpl - Saving Module: 'public_html'FacetManager took 11 ms 
+2019-03-06 17:41:21,536 [1677769]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlProjectCodeStyleConfiguration took 20 ms 
+2019-03-06 17:41:21,536 [1677769]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 131 ms 
+2019-03-06 17:42:00,095 [1716328]   INFO -  #git4idea.commands.GitHandler - [public_html] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -- .idea/inspectionProfiles/Project_Default.xml .idea/php.xml 
+2019-03-06 17:42:00,312 [1716545]   INFO -  #git4idea.commands.GitHandler - [public_html] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -- . 
+2019-03-06 17:42:16,880 [1733113]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlRunManager took 57 ms 
+2019-03-06 17:43:27,296 [1803529]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+com.intellij.openapi.vcs.impl.CodeSmellDetectorImpl.findCodeSmells(CodeSmellDetectorImpl.java:136) 
+2019-03-06 17:43:41,249 [1817482]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlXDebuggerManager took 15 ms 
+2019-03-06 17:43:41,332 [1817565]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 528 ms 
+2019-03-06 17:44:12,913 [1849146]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+com.intellij.openapi.vcs.impl.CodeSmellDetectorImpl.findCodeSmells(CodeSmellDetectorImpl.java:136) 
+2019-03-06 17:44:15,720 [1851953]   INFO -  #git4idea.commands.GitHandler - [public_html] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -f -- .idea/codeStyles/Project.xml .idea/codeStyles/codeStyleConfig.xml .idea/misc.xml .idea/php.xml .idea/vcs.xml .idea/public_html.iml .idea/inspectionProfiles/Project_Default.xml .idea/modules.xml .idea/workspace.xml sites/all/themes/laptops_phones/laptops_phones.theme 
+2019-03-06 17:44:15,856 [1852089]   INFO -  #git4idea.commands.GitHandler - [public_html] git -c core.quotepath=false -c log.showSignature=false commit -F /tmp/git-commit-msg-.txt -- 
+2019-03-06 17:44:16,052 [1852285]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlProjectCodeStyleConfiguration took 33 ms 
+2019-03-06 17:44:16,052 [1852285]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 441 ms 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - [master 2e600f59] added ide 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - 10 files changed, 653 insertions(+), 9 deletions(-) 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/codeStyles/Project.xml 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/codeStyles/codeStyleConfig.xml 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/inspectionProfiles/Project_Default.xml 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/misc.xml 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/modules.xml 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/php.xml 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/public_html.iml 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/vcs.xml 
+2019-03-06 17:44:16,092 [1852325]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .idea/workspace.xml 
+2019-03-06 17:44:43,324 [1879557]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 55 ms 
+2019-03-06 17:44:46,393 [1882626]   INFO - rationStore.ComponentStoreImpl - Saving appGeneralSettings took 13 ms, ProjectViewSharedSettings took 14 ms, XDebuggerSettings took 12 ms 
+2019-03-06 17:44:46,451 [1882684]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlRunManager took 46 ms 
+2019-03-06 17:44:46,451 [1882684]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 216 ms 
+2019-03-06 17:45:22,769 [1919002]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 48 ms 
+2019-03-06 17:45:31,252 [1927485]   INFO -  #git4idea.commands.GitHandler - [public_html] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -- . 
+2019-03-06 17:45:40,347 [1936580]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 48 ms 
+2019-03-06 17:46:10,366 [1966599]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlRunManager took 14 ms 
+2019-03-06 17:46:10,366 [1966599]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 128 ms 
+2019-03-06 17:46:51,308 [2007541]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlRunManager took 19 ms 
+2019-03-06 17:46:51,312 [2007545]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 78 ms 
+2019-03-06 17:47:14,760 [2030993]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 38 ms 
+2019-03-06 17:47:53,937 [2070170]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlSvnFileUrlMappingImpl took 22 ms 
+2019-03-06 17:47:54,057 [2070290]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 247 ms 
+2019-03-06 17:47:58,501 [2074734]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-03-06 17:48:12,239 [2088472]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 72 ms 
+2019-03-06 17:48:13,143 [2089376]   INFO - rationStore.ComponentStoreImpl - Saving appPhpInterpretersPhpInfoCache took 26 ms 
+2019-03-06 17:48:13,210 [2089443]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 161 ms 
+2019-03-06 17:48:38,937 [2115170]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.idea.perforce.perforce.ConnectionId 
+2019-03-06 17:48:38,953 [2115186]   INFO - rationStore.ComponentStoreImpl - Saving Project '/var/www/site.ru/public_html' public_htmlPerforceDirect.Settings took 28 ms 
+2019-03-06 17:48:38,958 [2115191]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 143 ms 

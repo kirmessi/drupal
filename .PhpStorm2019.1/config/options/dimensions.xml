@@ -1,0 +1,33 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1680.1050" x="873" y="459"/>
+    <location key="com.intellij.ide.util.TipDialog.0.0.1680.1050" x="529" y="366"/>
+    <location key="FileChooserDialogImpl.0.0.1680.1050" x="656" y="296"/>
+    <location key="SettingsEditor.0.0.1680.1050" x="347" y="182"/>
+    <location key="#CLI_Interpreters.0.0.1680.1050" x="451" y="195"/>
+    <location key="#PHP.0.0.1680.1050" x="558" y="131"/>
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1680.1050" x="331" y="195"/>
+    <location key="#Drupal.0.0.1680.1050" x="468" y="199"/>
+    <location key="CommitChangelistDialog2.0.0.1680.1050" x="437" y="110"/>
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1680.1050" x="609" y="375"/>
+    <size key="FileChooserDialogImpl.0.0.1680.1050" width="424" height="484"/>
+    <size key="SettingsEditor.0.0.1680.1050" width="1042" height="711"/>
+    <size key="#CLI_Interpreters.0.0.1680.1050" width="824" height="684"/>
+    <size key="#PHP.0.0.1680.1050" width="619" height="813"/>
+    <size key="GridCell.Tab.0.left.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.0.center.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.0.right.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.0.bottom.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.1.left.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.1.center.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.1.right.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.1.bottom.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.2.left.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.2.center.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.2.right.0.0.1680.1050" width="1567" height="322"/>
+    <size key="GridCell.Tab.2.bottom.0.0.1680.1050" width="1567" height="322"/>
+    <size key="#Drupal.0.0.1680.1050" width="800" height="677"/>
+    <size key="CommitChangelistDialog2.0.0.1680.1050" width="862" height="855"/>
+    <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1680.1050" width="518" height="325"/>
+  </component>
+</application>

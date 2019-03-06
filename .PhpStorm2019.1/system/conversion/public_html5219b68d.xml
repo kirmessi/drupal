@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider"/>
+    <converter id="js-debug-configuration-converter"/>
+    <converter id="js-predefined-libraries-merged"/>
+  </applied-converters>
+  <project-files>
+    <file path="/var/www/site.ru/public_html/.idea/codeStyles/codeStyleConfig.xml" timestamp="1551884647000"/>
+    <file path="/var/www/site.ru/public_html/.idea/inspectionProfiles/Project_Default.xml" timestamp="1551884769000"/>
+    <file path="/var/www/site.ru/public_html/.idea/misc.xml" timestamp="1551884487000"/>
+    <file path="/var/www/site.ru/public_html/.idea/modules.xml" timestamp="1551884487000"/>
+    <file path="/var/www/site.ru/public_html/.idea/php.xml" timestamp="1551884769000"/>
+    <file path="/var/www/site.ru/public_html/.idea/public_html.iml" timestamp="1551884769000"/>
+    <file path="/var/www/site.ru/public_html/.idea/vcs.xml" timestamp="1551884487000"/>
+    <file path="/var/www/site.ru/public_html/.idea/workspace.xml" timestamp="1551884998000"/>
+  </project-files>
+</conversion>
+

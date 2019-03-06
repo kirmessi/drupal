@@ -1,0 +1,430 @@
+<application>
+  <component name="FileBasedIndex">
+    <option name="registeredIndices">
+      <list>
+        <option value="vuex.store.index"/>
+        <option value="vue.local.directives.index"/>
+        <option value="vue.global.directives.index"/>
+        <option value="vue.extends.binding.index"/>
+        <option value="vue.mixin.binding.index"/>
+        <option value="vue.options.index"/>
+        <option value="vue.components.index"/>
+        <option value="php.namespace.shortName"/>
+        <option value="php.variable.shortName"/>
+        <option value="php.inheritors"/>
+        <option value="php.use.referenceName"/>
+        <option value="php.use.shortName"/>
+        <option value="php.constant.case.sensitive.shortName"/>
+        <option value="php.constant.shortName"/>
+        <option value="php.function.shortName"/>
+        <option value="php.classConstant.shortName"/>
+        <option value="php.field.shortName"/>
+        <option value="php.method.shortName"/>
+        <option value="php.trait.shortName"/>
+        <option value="php.interface.shortName"/>
+        <option value="php.class.shortName"/>
+        <option value="angular2.metadata.module.index"/>
+        <option value="angular2.metadata.function.index"/>
+        <option value="angular2.metadata.node.index"/>
+        <option value="angular2.metadata.directive.index"/>
+        <option value="angular2.metadata.entityClassName.index"/>
+        <option value="angular2.metadata.pipe.index"/>
+        <option value="angular2.source.module.index"/>
+        <option value="angular2.source.directive.index"/>
+        <option value="angular2.source.pipe.index"/>
+        <option value="angular2.templateUrl.index"/>
+        <option value="angularjs.delimiter.index"/>
+        <option value="angularjs.generic.modules.index"/>
+        <option value="angularjs.templateUrl.index"/>
+        <option value="angularjs.ui.router.generic.states.index"/>
+        <option value="angularjs.ui.router.states.index"/>
+        <option value="angularjs.symbol.index"/>
+        <option value="angularjs.filter.index"/>
+        <option value="angularjs.module.index"/>
+        <option value="angularjs.controller.index"/>
+        <option value="angularjs.directives.doc.index"/>
+        <option value="angularjs.directives.index"/>
+        <option value="js.amd.modules"/>
+        <option value="js.doc.modules"/>
+        <option value="js.gcl.modules"/>
+        <option value="js.nonglobal.symbol.index"/>
+        <option value="ts.embedded.content.index"/>
+        <option value="ts.local.classes"/>
+        <option value="es6.assignment.index"/>
+        <option value="es6.exported.index"/>
+        <option value="js.exported.index"/>
+        <option value="js.global.symbol.index"/>
+        <option value="amd.requirePaths.index"/>
+        <option value="amd.baseUrl.index"/>
+        <option value="js.symbol.qualified.names.index"/>
+        <option value="JS.subclass.stub.index"/>
+        <option value="js.namespace.including.local.members.index"/>
+        <option value="js.namespace.index"/>
+        <option value="js.class.index2"/>
+        <option value="JS.base.types.index"/>
+        <option value="js.generics.index"/>
+        <option value="js.typedef.index2"/>
+        <option value="js.symbol.index2"/>
+        <option value="JS.custom.stub.index"/>
+        <option value="JS.class.implements"/>
+        <option value="JS.class.super"/>
+        <option value="ts.external.module.index"/>
+        <option value="JS.global.qualified.elements"/>
+        <option value="js.element.qualifiedName"/>
+        <option value="js.qualified.shortName"/>
+        <option value="Scss.mixin"/>
+        <option value="Scss.function"/>
+        <option value="Scss.placeholder.selector"/>
+        <option value="Scss.variable"/>
+        <option value="Less.variables"/>
+        <option value="Less.mixins"/>
+        <option value="markdown.header"/>
+        <option value="sql.names"/>
+        <option value="sql.column.name"/>
+        <option value="sql.table.shortName"/>
+        <option value="Css.custom.mixin"/>
+        <option value="Css.custom.property"/>
+        <option value="Css.attr"/>
+        <option value="Css.id"/>
+        <option value="Css.class"/>
+        <option value="Css.ampersand.selector"/>
+        <option value="ini.property.key"/>
+        <option value="dom.elementClass"/>
+        <option value="dom.namespaceKey"/>
+      </list>
+    </option>
+  </component>
+  <component name="FusApprovedGroupsCacheConfigurable" build="191.5849.26" cache_version="1"
+             last_update="1551886116608">
+    <whitelist>
+      <FUSWhitelist>
+        <groups>
+          <group id="actions">
+            <list/>
+          </group>
+          <group id="completion.postfix">
+            <list/>
+          </group>
+          <group id="db.datasource.config">
+            <list/>
+          </group>
+          <group id="db.ddl.dialects">
+            <list/>
+          </group>
+          <group id="db.managers">
+            <list/>
+          </group>
+          <group id="db.products">
+            <list/>
+          </group>
+          <group id="debugger.breakpoints">
+            <list/>
+          </group>
+          <group id="debugger.breakpoints.usage">
+            <list/>
+          </group>
+          <group id="deployment.ftp.settings">
+            <list/>
+          </group>
+          <group id="deployment.publish.config">
+            <list/>
+          </group>
+          <group id="deployment.serverSettingsUI">
+            <list/>
+          </group>
+          <group id="deployment.servers">
+            <list/>
+          </group>
+          <group id="diagram.usages.trigger">
+            <list/>
+          </group>
+          <group id="disabled.bundled.tools">
+            <list/>
+          </group>
+          <group id="disabled.listed.tools">
+            <list/>
+          </group>
+          <group id="editor.settings.ide">
+            <list/>
+          </group>
+          <group id="editor.settings.project">
+            <list/>
+          </group>
+          <group id="enabled.bundled.tools">
+            <list/>
+          </group>
+          <group id="enabled.listed.tools">
+            <list/>
+          </group>
+          <group id="file.types">
+            <list/>
+          </group>
+          <group id="file.types.usage">
+            <list/>
+          </group>
+          <group id="ide.self.update">
+            <list/>
+          </group>
+          <group id="import.old.config">
+            <list/>
+          </group>
+          <group id="intentions">
+            <list/>
+          </group>
+          <group id="js.dialects">
+            <list/>
+          </group>
+          <group id="js.eslint.options">
+            <list/>
+          </group>
+          <group id="js.language.service.starts">
+            <list/>
+          </group>
+          <group id="js.live.edit.options">
+            <list/>
+          </group>
+          <group id="json.schema">
+            <list/>
+          </group>
+          <group id="keymaps.name">
+            <list/>
+          </group>
+          <group id="kubernetes.settings">
+            <list/>
+          </group>
+          <group id="kubernetes.usages">
+            <list/>
+          </group>
+          <group id="lifecycle">
+            <list/>
+          </group>
+          <group id="lifecycle.project">
+            <list/>
+          </group>
+          <group id="live.templates">
+            <list/>
+          </group>
+          <group id="nodejs.run.configuration">
+            <list/>
+          </group>
+          <group id="os.linux.wm">
+            <list/>
+          </group>
+          <group id="performance">
+            <list/>
+          </group>
+          <group id="php.code.style">
+            <list/>
+          </group>
+          <group id="php.command.line.tools">
+            <list/>
+          </group>
+          <group id="php.completion">
+            <list/>
+          </group>
+          <group id="php.composer.actions">
+            <list/>
+          </group>
+          <group id="php.composer.command.options">
+            <list/>
+          </group>
+          <group id="php.composer.executable">
+            <list/>
+          </group>
+          <group id="php.composer.json">
+            <list/>
+          </group>
+          <group id="php.composer.sync">
+            <list/>
+          </group>
+          <group id="php.frameworks.drupal">
+            <list/>
+          </group>
+          <group id="php.frameworks.wordpress">
+            <list/>
+          </group>
+          <group id="php.include.path.custom">
+            <list/>
+          </group>
+          <group id="php.interpreter.count">
+            <list/>
+          </group>
+          <group id="php.interpreter.debugger">
+            <list/>
+          </group>
+          <group id="php.interpreter.version">
+            <list/>
+          </group>
+          <group id="php.interpreters.default.name">
+            <list/>
+          </group>
+          <group id="php.joomla.support">
+            <list/>
+          </group>
+          <group id="php.language.feature.usages">
+            <list/>
+          </group>
+          <group id="php.language.level">
+            <list/>
+          </group>
+          <group id="php.language.level.vs.interpreter">
+            <list/>
+          </group>
+          <group id="php.new.class">
+            <list/>
+          </group>
+          <group id="php.new.test">
+            <list/>
+          </group>
+          <group id="php.phing">
+            <list/>
+          </group>
+          <group id="php.rename.constructor">
+            <list/>
+          </group>
+          <group id="php.server.count">
+            <list/>
+          </group>
+          <group id="php.server.debugger">
+            <list/>
+          </group>
+          <group id="php.server.skipped.paths">
+            <list/>
+          </group>
+          <group id="php.stubs.extensions">
+            <list/>
+          </group>
+          <group id="php.test.framework">
+            <list/>
+          </group>
+          <group id="php.twig.injection">
+            <list/>
+          </group>
+          <group id="php.workshop">
+            <list/>
+          </group>
+          <group id="platform.registry.application">
+            <list/>
+          </group>
+          <group id="plugins.disabled">
+            <list/>
+          </group>
+          <group id="plugins.non.bundled">
+            <list/>
+          </group>
+          <group id="productivity">
+            <list/>
+          </group>
+          <group id="project.structure">
+            <list/>
+          </group>
+          <group id="remote.sdk.type">
+            <list/>
+          </group>
+          <group id="run.configuration.exec">
+            <list/>
+          </group>
+          <group id="run.configuration.type">
+            <list/>
+          </group>
+          <group id="run.configuration.type.temp">
+            <list/>
+          </group>
+          <group id="run.dashboard">
+            <list/>
+          </group>
+          <group id="settings">
+            <list/>
+          </group>
+          <group id="system.java">
+            <list/>
+          </group>
+          <group id="system.os">
+            <list/>
+          </group>
+          <group id="terminalShell">
+            <list/>
+          </group>
+          <group id="toolbar">
+            <list/>
+          </group>
+          <group id="toolwindow">
+            <list/>
+          </group>
+          <group id="ui.accessibility.screen.reader">
+            <list/>
+          </group>
+          <group id="ui.dialogs">
+            <list/>
+          </group>
+          <group id="ui.fonts">
+            <list/>
+          </group>
+          <group id="ui.hidpi.mode">
+            <list/>
+          </group>
+          <group id="ui.info.features">
+            <list/>
+          </group>
+          <group id="ui.look.and.feel">
+            <list/>
+          </group>
+          <group id="ui.screen.scale">
+            <list/>
+          </group>
+          <group id="ui.tips">
+            <list/>
+          </group>
+          <group id="user.advanced.info">
+            <list/>
+          </group>
+          <group id="vcs.back.forward.trigger">
+            <list/>
+          </group>
+          <group id="vcs.diff">
+            <list/>
+          </group>
+          <group id="vcs.diff.trigger">
+            <list/>
+          </group>
+          <group id="vcs.git.project.root">
+            <list/>
+          </group>
+          <group id="vcs.git.settings">
+            <list/>
+          </group>
+          <group id="vcs.github">
+            <list/>
+          </group>
+          <group id="vcs.log.data">
+            <list/>
+          </group>
+          <group id="vcs.log.index.application">
+            <list/>
+          </group>
+          <group id="vcs.log.index.project">
+            <list/>
+          </group>
+          <group id="vcs.log.trigger">
+            <list/>
+          </group>
+          <group id="vcs.log.ui">
+            <list/>
+          </group>
+          <group id="vcs.metrics">
+            <list/>
+          </group>
+          <group id="vcs.names">
+            <list/>
+          </group>
+          <group id="vcs.options">
+            <list/>
+          </group>
+          <group id="vcs.svn.format">
+            <list/>
+          </group>
+        </groups>
+      </FUSWhitelist>
+    </whitelist>
+  </component>
+</application>

@@ -1,0 +1,46 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="/var/www/site.ru/public_html"/>
+        <option value="$USER_HOME$/PhpstormProjects/untitled"/>
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="/var/www/site.ru/public_html"/>
+      </list>
+    </option>
+    <option name="lastPath" value="/var/www/site.ru/public_html"/>
+    <option name="pid" value=""/>
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PhpstormProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-191.5849.26"/>
+              <option name="productionCode" value="PS"/>
+              <option name="eap" value="true"/>
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin"/>
+              <option name="projectOpenTimestamp" value="1551884385254"/>
+              <option name="buildTimestamp" value="1551284123235"/>
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/var/www/site.ru/public_html">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-191.5849.26"/>
+              <option name="productionCode" value="PS"/>
+              <option name="eap" value="true"/>
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin"/>
+              <option name="projectOpenTimestamp" value="1551885230876"/>
+              <option name="buildTimestamp" value="1551284132033"/>
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/PhpstormProjects"/>
+  </component>
+</application>
