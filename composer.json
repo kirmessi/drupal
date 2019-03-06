@@ -12,7 +12,8 @@
         "drupal/image_delta_formatter": "^1.0",
         "drupal/webform": "^5.1",
         "drupal/contact_block": "^1.4",
-        "drupal/features": "^3.8"
+        "drupal/features": "^3.8",
+        "drupal/restui": "^1.16"
     },
     "replace": {
         "drupal/core": "^8.6"
