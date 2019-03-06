@@ -1,5 +1,0 @@
-# Schema for the configuration files of the Recipes theme.
-
-laptops_phones.settings:
-  type: theme_settings
-  label: 'Laptops_Phones settings'

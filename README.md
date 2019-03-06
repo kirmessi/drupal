@@ -72,7 +72,7 @@
 
   Then implementing get method in Drupal\firstmodule\Plugin\rest\resource;
 
-  http://site.ru/api/custom/arnold?_format=json&arnold-movie=Kindergarten%20Cop
+ http://site.ru/api/custom/test?_format=json&hello-world=nix
 
   for control from admin panel, install REST UI from https://www.drupal.org/project/restui
 

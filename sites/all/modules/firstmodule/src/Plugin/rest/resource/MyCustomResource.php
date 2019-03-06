@@ -10,20 +10,17 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Drupal\search_api\Query\QueryInterface;
 use Drupal\search_api\Entity\Index;
-use Drupal\Core\node\Entity\Node;
 /**
-* Provides an example resource to return the right Arnold movie quote.
-*
 * @RestResource(
-*   id = "my_custom_resource_random",
-*   label = @Translation("Random Arnold Movie Quote"),
+*   id = "my_custom_resource",
+*   label = @Translation("hello name"),
 *   uri_paths = {
-*     "canonical" = "/api/custom/arnold/random",
-*     "https://www.drupal.org/link-relations/create" = "/api/custom/arnold/random"
+*     "canonical" = "/api/custom/test",
+*     "https://www.drupal.org/link-relations/create" = "/api/custom/test"
 *   }
 * )
 */
-class MyCustomResourceRandom extends ResourceBase {
+class MyCustomResource extends ResourceBase {
  /**
   * A current user instance.
   *
@@ -91,26 +88,19 @@ class MyCustomResourceRandom extends ResourceBase {
   */
  public function get() {
    if ($this->request) {
-     // Load the arnold movie parameter.
-     $movie = $this->request->get('arnold-movie');
-     
-     // Load nodes by movie.
-     $query = \Drupal::entityQuery('node');
-     $query->condition('status', 1);
-     $query->condition('type', 'arnold_movies');
-     $query->condition('field_movie', $movie);
-     
-     // Check if user is not able to access bonus quotes.
-     if (!$this->currentUser->hasPermission('can access bonus quotes')) {
-       // Restrict query to non-bonus.
-       $query->condition('field_bonus', '0');
-     } 
-     
-     // Load a random node IDs.
-     $random_quote = Node::load(array_rand($query->execute()));
+     // Load the hello parameter.
+     $hello = $this->request->get('hello-world');
     
      // Process request.
-     $quote = $random_quote ? $random_quote->title : 'No movie found';
+     $answer = 'No Name found';
+     switch ($hello) {
+       case 'kir':
+         $answer = 'Hello Kir!';
+         break;
+       case 'nix':
+         $answer = 'Greate Company';
+         break;
+     }
      // Configure caching settings.
      $build = [
        '#cache' => [
@@ -119,7 +109,7 @@ class MyCustomResourceRandom extends ResourceBase {
      ];
      
      // Return results.
-     return (new ResourceResponse(['quote' => $quote], 200))->addCacheableDependency($build);
+     return (new ResourceResponse(['answer' => $answer], 200))->addCacheableDependency($build);
    }
  }
 }
