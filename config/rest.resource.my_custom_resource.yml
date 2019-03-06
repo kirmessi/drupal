@@ -1,0 +1,18 @@
+uuid: e2a25e60-3391-4461-8323-04e9d59b0211
+langcode: en
+status: true
+dependencies:
+  module:
+    - firstmodule
+    - serialization
+    - user
+id: my_custom_resource
+plugin_id: my_custom_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+      - xml
+    supported_auth:
+      - cookie
