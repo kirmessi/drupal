@@ -70,34 +70,10 @@
   
 **REST API**
 
-Simple example of hello_world.routing.yml:
+  Then implementing get method in Drupal\firstmodule\Plugin\rest\resource;
 
-`hello_world.get:`
+  http://site.ru/api/custom/arnold?_format=json&arnold-movie=Kindergarten%20Cop
 
-  `path: 'hello-api/get.json'`
-  
-  `defaults: { _controller: '\Drupal\hello_world\Controller\HelloController::get_example' }`
-  
-  `methods:  [GET]`
-  
-  `requirements:`
-  
-    `access: 'TRUE'`
-    
-Then implementing get_example method in HelloController
+  for control from admin panel, install REST UI from https://www.drupal.org/project/restui
 
-- for control from admin panel, install REST UI from https://www.drupal.org/project/restui
 
-**Cron Job**
-
-https://opensenselabs.com/blog/tech/configuring-cron-drupal-8
-
-https://opensenselabs.com/blog/tech/allocate-different-time-period-cron
-
-https://www.drupal.org/node/23714
-
-Simple example cron job from custom module:
-
-just one function in your's hello_world.module file
-
-`function hello_world_cron() {}`
